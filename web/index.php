@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>?????????.com</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script>
-        $(window).scroll(function(){
-            $('#button_bar').toggleClass('scrolling', $(window).scrollTop() > 150);
-            $('#temp').toggleClass('invisible', $(window).scrollTop() <= 150)
-        });
-    </script>
     <style type="text/css">
         html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
             margin: 0;
@@ -69,9 +63,16 @@
             display: none;
         }
     </style>
+    <script>
+        $(window).scroll(function(){
+            var topHeight = document.getElementById("top").offsetHeight;
+            $('#button_bar').toggleClass('scrolling', $(window).scrollTop() > topHeight);
+            $('#temp').toggleClass('invisible', $(window).scrollTop() <= topHeight)
+        });
+    </script>
 </head>
 <body>
-<div style="width: 100%; background-color: antiquewhite; height: 150px"></div>
+<div id="top" style="width: 100%; background-color: antiquewhite; height: 150px"></div>
 <div id="temp" class="invisible" style="height: 100px"></div>
 <div class="button_container" id="button_bar" style="height: 100px">
     <a class="btn">
