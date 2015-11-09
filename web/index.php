@@ -72,7 +72,7 @@
     </script>
 </head>
 <body>
-<div id="top" style="width: 100%; background-color: antiquewhite; height: 150px"></div>
+<div id="top" align="center" style="width: 100%; background-color: antiquewhite;"><img src="static/title.jpg"/></div>
 <div id="temp" class="invisible" style="height: 100px"></div>
 <div class="button_container" id="button_bar" style="height: 100px">
     <a class="btn">
