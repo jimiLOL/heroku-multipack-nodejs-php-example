@@ -8,8 +8,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script>
         $(window).scroll(function(){
-            var obj = $('#header');
-            $('#header-inner').toggleClass('scrolling', $(window).scrollTop() > 150);
+            $('#button_bar').toggleClass('scrolling', $(window).scrollTop() > 150);
             $('#temp').toggleClass('invisible', $(window).scrollTop() <= 150)
         });
     </script>
@@ -43,12 +42,55 @@
         .invisible {
             display: none;
         }
+
+        .button_container {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;/*for internet explorer*/
+            background-color: bisque;
+        }
+        .btn {
+            text-decoration: none;
+        }
+        .selected {
+            display: none;
+        }
+        .btn:hover .selected {
+            display: inline;
+        }
+        .btn:focus .selected {
+            display: inline;
+        }
+        .btn:hover .not_selected {
+            display: none;
+        }
+        .btn:focus .not_selected {
+            display: none;
+        }
     </style>
 </head>
 <body>
 <div style="width: 100%; background-color: antiquewhite; height: 150px"></div>
 <div id="temp" class="invisible" style="height: 100px"></div>
-<div id="header-inner" style="width: 100%; background-color: deeppink; height: 100px;"></div>
+<div class="button_container" id="button_bar" style="height: 100px">
+    <a class="btn">
+        <img src="static/news_btn_ru.png" class="not_selected">
+        <img src="static/news_btn_ru_selected.png" class="selected">
+    </a>
+    <a target="game_info_content" class="btn">
+        <img src="static/faq_btn_ru.png" class="not_selected"/>
+        <img src="static/faq_btn_ru_selected.png" class="selected"/>
+    </a>
+    <a target="_blank" class="btn">
+        <img src="static/group_btn_ru.png" class="not_selected"/>
+        <img src="static/group_btn_ru_selected.png" class="selected"/>
+    </a>
+    <a target="game_info_content" class="btn">
+        <img src="static/help_btn_ru.png" class="not_selected"/>
+        <img src="static/help_btn_ru_selected.png" class="selected"/>
+    </a>
+</div>
 <div align="center" style="width:700px; height: 1500px; background-color: aliceblue; margin-left: auto; margin-right: auto">
     1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>
 </div>
