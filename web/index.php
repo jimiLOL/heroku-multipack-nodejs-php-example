@@ -25,7 +25,7 @@
         }
 
         body {
-            background-image: url("bg1.jpg");
+            background-image: url("static/bg.jpg");
             background-repeat: repeat;
         }
 
@@ -65,7 +65,7 @@
     </style>
     <script>
         $(window).scroll(function(){
-            var topHeight = document.getElementById("top").offsetHeight;
+            var topHeight = document.getElementById("top").offsetHeight;//.clientHeight
             $('#button_bar').toggleClass('scrolling', $(window).scrollTop() > topHeight);
             $('#temp').toggleClass('invisible', $(window).scrollTop() <= topHeight)
         });
@@ -92,7 +92,7 @@
         <img src="static/help_btn_ru_selected.png" class="selected"/>
     </a>
 </div>
-<div align="center" style="width:700px; height: 1500px; background-color: aliceblue; margin-left: auto; margin-right: auto">
+<div align="center" style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
     1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>
 </div>
 <div style="position: fixed; bottom: 0; right: 0; width: 100px; height: 100px; background-color: coral"></div>
