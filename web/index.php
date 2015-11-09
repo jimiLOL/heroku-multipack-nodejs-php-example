@@ -67,14 +67,32 @@
         $(window).scroll(function(){
             var topHeight = document.getElementById("top").offsetHeight;//.clientHeight
             $('#button_bar').toggleClass('scrolling', $(window).scrollTop() > topHeight);
-            $('#temp').toggleClass('invisible', $(window).scrollTop() <= topHeight)
+            document.getElementById("temp").style.display = $(window).scrollTop() <= topHeight ? "none" : "block";
+//            $('#temp').toggleClass('invisible', )
         });
     </script>
 </head>
 <body>
 <div id="top" align="center" style="width: 100%; background-color: antiquewhite;"><img src="static/title.jpg"/></div>
-<div id="temp" class="invisible" style="height: 100px"></div>
-<div class="button_container" id="button_bar" style="height: 100px">
+<div id="temp" style="display: none" class="button_container">
+    <a class="btn">
+        <img src="static/news_btn_ru.png" class="not_selected">
+        <img src="static/news_btn_ru_selected.png" class="selected">
+    </a>
+    <a target="game_info_content" class="btn">
+        <img src="static/faq_btn_ru.png" class="not_selected"/>
+        <img src="static/faq_btn_ru_selected.png" class="selected"/>
+    </a>
+    <a target="_blank" class="btn">
+        <img src="static/group_btn_ru.png" class="not_selected"/>
+        <img src="static/group_btn_ru_selected.png" class="selected"/>
+    </a>
+    <a target="game_info_content" class="btn">
+        <img src="static/help_btn_ru.png" class="not_selected"/>
+        <img src="static/help_btn_ru_selected.png" class="selected"/>
+    </a>
+</div>
+<div class="button_container" id="button_bar">
     <a class="btn">
         <img src="static/news_btn_ru.png" class="not_selected">
         <img src="static/news_btn_ru_selected.png" class="selected">
@@ -93,7 +111,7 @@
     </a>
 </div>
 <div align="center" style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
-    1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>
+    1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>
 </div>
 <div style="position: fixed; bottom: 0; right: 0; width: 100px; height: 100px; background-color: coral"></div>
 </body>
