@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>?????????.com</title>
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>Звездочка.com</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <style type="text/css">
         html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
@@ -111,7 +111,8 @@
     </a>
 </div>
 <div align="center" style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
-    1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>1<br/>2<br/>
+    Сайт временно не работает.<br/>
+    Приносим извинения за временные неудобства.
 </div>
 <div style="position: fixed; bottom: 0; right: 0; width: 100px; height: 100px; background-color: coral"></div>
 </body>
