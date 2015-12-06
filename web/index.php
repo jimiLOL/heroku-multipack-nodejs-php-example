@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <title>Звездочка.com</title>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
     <style type="text/css">
         html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
             margin: 0;
@@ -64,12 +64,12 @@
         }
     </style>
     <script>
-        $(window).scroll(function(){
-            var topHeight = document.getElementById("top").offsetHeight;//.clientHeight
-            $('#button_bar').toggleClass('scrolling', $(window).scrollTop() > topHeight);
-            document.getElementById("temp").style.display = $(window).scrollTop() <= topHeight ? "none" : "block";
-//            $('#temp').toggleClass('invisible', )
-        });
+//        $(window).scroll(function(){
+//            var topHeight = document.getElementById("top").offsetHeight;//.clientHeight
+//            $('#button_bar').toggleClass('scrolling', $(window).scrollTop() > topHeight);
+//            document.getElementById("temp").style.display = $(window).scrollTop() <= topHeight ? "none" : "block";
+//        });
+
     </script>
 </head>
 <body>
