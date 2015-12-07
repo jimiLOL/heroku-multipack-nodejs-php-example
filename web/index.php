@@ -58,7 +58,9 @@
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
 <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
     <script>
-
+        VK.Widgets.Group("vk_groups", {mode: 2, width: "auto", height: "300", wide: 1}, 102947277);
+        VK.init({apiId: 5179166, onlyWidgets: true});
+        VK.Widgets.Like("vk_like", {type: "button"});
     </script>
 </head>
 <body>
@@ -83,12 +85,10 @@
 </div>
 <div align="center" style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
     Сайт временно не работает.<br/>
-    Приносим извинения за временные неудобства.
+    Приносим извинения за неудобства.
 
     <div id="vk_groups"></div>
-    <script type="text/javascript">
-        VK.Widgets.Group("vk_groups", {mode: 2, width: "auto", height: "300", wide: 1}, 102947277);
-    </script>
+    <div id="vk_like"></div>
 </div>
 
 <div style="position: fixed; top: 0; right: 0; width: 100px; height: 100px; background-color: coral"></div>
