@@ -88,9 +88,9 @@
     Приносим извинения за неудобства.
 
     <div id="vk_groups"></div>
+    <div id="vk_like"></div>
 </div>
 
-<div id="vk_like" style="position: fixed; top: 0; left: 0;"></div>
 <div style="position: fixed; top: 0; right: 0; width: 100px; height: 100px; background-color: coral"></div>
 </body>
 </html>
