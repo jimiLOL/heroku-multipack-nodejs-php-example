@@ -55,7 +55,13 @@
             display: none;
         }
     </style>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
 <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
+    <script>
+        VK.Widgets.Group("vk_groups", {mode: 2, width: "auto", height: "300", wide: 1}, 102947277);
+        VK.init({apiId: 5179166, onlyWidgets: true});
+        VK.Widgets.Like("vk_like", {type: "button"});
+    </script>
 </head>
 <body>
 <div id="top" align="center" style="width: 100%; background-color: antiquewhite;"><img src="static/title.jpg"/></div>
@@ -80,6 +86,16 @@
 <div align="center" style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
     Сайт временно не работает.<br/>
     Приносим извинения за неудобства.
+    <div id="vk_groups"></div>
+    <div id="vk_like"></div>
+<!--https://tech.yandex.ru/maps/tools/constructor/?ncrnd=7040 avdim88/{small}-->
+    <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=D0cYdnOYWKyN_L3ROos4u0jg-2AFVBFt&width=500&height=400&lang=ru_RU&sourceType=constructor"></script>
+</div>
+
+<div style="position: fixed; top: 0; right: 0; width: 80px; height: 80px;">
+    <a href="//vk.com/littlestarkids" target="_blank">
+        <img src="static/vk_top_right.png" style="width: 80px; height: 80px"/><!--TODO resize png-->
+    </a>
 </div>
 
 </body>
