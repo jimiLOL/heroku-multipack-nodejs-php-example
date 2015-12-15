@@ -4,10 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <title>Звездочка.com</title>
+    <title>little-star.su</title>
 <!--    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
     <style type="text/css">
-        html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+        div, html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
             margin: 0;
             padding: 0;
             border: 0;
@@ -22,11 +22,6 @@
         table {
             border-collapse: collapse;
             border-spacing: 0;
-        }
-
-        body {
-            background-image: url("static/bg.jpg");
-            background-repeat: repeat;
         }
 
         .button_container {
@@ -83,13 +78,20 @@
         <img src="static/help_btn_ru_selected.png" class="selected"/>
     </a>
 </div>
-<div align="center" style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
-    Сайт временно не работает.<br/>
-    Приносим извинения за неудобства.
-    <div id="vk_groups"></div>
-    <div id="vk_like"></div>
-<!--https://tech.yandex.ru/maps/tools/constructor/?ncrnd=7040 avdim88/{small}-->
-    <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=D0cYdnOYWKyN_L3ROos4u0jg-2AFVBFt&width=500&height=400&lang=ru_RU&sourceType=constructor"></script>
+
+<div style="background-image: url('static/background_scale.jpg'); background-size: contain;">
+    <div align="center" style="width:700px; min-height: 500px; margin-left: auto; margin-right: auto">
+        Сайт временно не работает.<br/>
+        Приносим извинения за неудобства.
+        <!--        <div id="vk_groups"></div>-->
+        <!--        <div id="vk_like"></div>-->
+        <!--https://tech.yandex.ru/maps/tools/constructor/?ncrnd=7040 avdim88/{small}-->
+        <!--        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=D0cYdnOYWKyN_L3ROos4u0jg-2AFVBFt&width=500&height=400&lang=ru_RU&sourceType=constructor"></script>-->
+    </div>
+</div>
+
+<div>
+    <img style="width: 100%" src="static/background_bottom.jpg"/>
 </div>
 
 <div style="position: fixed; top: 0; right: 0; width: 80px; height: 80px;">
