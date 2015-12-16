@@ -61,11 +61,11 @@
 <body>
 <div id="top" align="center" style="width: 100%; background-color: antiquewhite;"><img src="static/title.jpg"/></div>
 <div class="button_container" id="button_bar">
-    <a class="btn">
+    <a class="btn" href="?page=main">
         <img src="static/news_btn_ru.png" class="not_selected">
         <img src="static/news_btn_ru_selected.png" class="selected">
     </a>
-    <a target="game_info_content" class="btn">
+    <a class="btn" href="?page=places">
         <img src="static/faq_btn_ru.png" class="not_selected"/>
         <img src="static/faq_btn_ru_selected.png" class="selected"/>
     </a>
@@ -81,12 +81,15 @@
 
 <div style="background-image: url('static/background_scale.jpg'); background-size: contain;">
     <div align="center" style="width:700px; min-height: 500px; margin-left: auto; margin-right: auto">
-        Сайт временно не работает.<br/>
-        Приносим извинения за неудобства.
-        <!--        <div id="vk_groups"></div>-->
-        <!--        <div id="vk_like"></div>-->
-        <!--https://tech.yandex.ru/maps/tools/constructor/?ncrnd=7040 avdim88/{small}-->
-        <!--        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=D0cYdnOYWKyN_L3ROos4u0jg-2AFVBFt&width=500&height=400&lang=ru_RU&sourceType=constructor"></script>-->
+        <?php
+        switch($_GET['page']) {
+            case "places":
+                require_once "places.php";
+                break;
+            default:
+                require_once "main.php";
+        }
+        ?>
     </div>
 </div>
 
