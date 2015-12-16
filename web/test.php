@@ -29,7 +29,6 @@
             margin-left: auto;
             margin-right: auto;
             text-align: center;/*for internet explorer*/
-            background-color: bisque;
         }
         .btn {
             text-decoration: none;
@@ -53,33 +52,33 @@
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
 <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
     <script>
-        VK.Widgets.Group("vk_groups", {mode: 2, width: "auto", height: "300", wide: 1}, 102947277);
-        VK.init({apiId: 5179166, onlyWidgets: true});
-        VK.Widgets.Like("vk_like", {type: "button"});
+//        VK.Widgets.Group("vk_groups", {mode: 2, width: "auto", height: "300", wide: 1}, 102947277);
+//        VK.init({apiId: 5179166, onlyWidgets: true});
+//        VK.Widgets.Like("vk_like", {type: "button"});
     </script>
 </head>
 <body>
-<div id="top" align="center" style="width: 100%; background-color: antiquewhite;"><img src="static/title.jpg"/></div>
-<div class="button_container" id="button_bar">
-    <a class="btn" href="?page=main">
-        <img src="static/news_btn_ru.png" class="not_selected">
-        <img src="static/news_btn_ru_selected.png" class="selected">
-    </a>
-    <a class="btn" href="?page=places">
-        <img src="static/faq_btn_ru.png" class="not_selected"/>
-        <img src="static/faq_btn_ru_selected.png" class="selected"/>
-    </a>
-    <a target="_blank" class="btn">
-        <img src="static/group_btn_ru.png" class="not_selected"/>
-        <img src="static/group_btn_ru_selected.png" class="selected"/>
-    </a>
-    <a target="game_info_content" class="btn">
-        <img src="static/help_btn_ru.png" class="not_selected"/>
-        <img src="static/help_btn_ru_selected.png" class="selected"/>
-    </a>
-</div>
-
 <div style="background-image: url('static/background_scale.jpg'); background-size: contain;">
+    <div id="top" align="center" style="width: 100%;"><img src="static/big_logo.png" style="height: 150px"/></div>
+    <div class="button_container" id="button_bar">
+        <a class="btn" href="?page=main">
+            <img src="static/news_btn_ru.png" class="not_selected">
+            <img src="static/news_btn_ru_selected.png" class="selected">
+        </a>
+        <a class="btn" href="?page=places">
+            <img src="static/faq_btn_ru.png" class="not_selected"/>
+            <img src="static/faq_btn_ru_selected.png" class="selected"/>
+        </a>
+        <a target="_blank" class="btn">
+            <img src="static/group_btn_ru.png" class="not_selected"/>
+            <img src="static/group_btn_ru_selected.png" class="selected"/>
+        </a>
+        <a target="game_info_content" class="btn">
+            <img src="static/help_btn_ru.png" class="not_selected"/>
+            <img src="static/help_btn_ru_selected.png" class="selected"/>
+        </a>
+    </div>
+
     <div align="center" style="width:700px; min-height: 500px; margin-left: auto; margin-right: auto">
         <?php
         switch($_GET['page']) {
