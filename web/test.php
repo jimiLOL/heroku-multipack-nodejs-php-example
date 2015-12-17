@@ -1,3 +1,14 @@
+<?php
+function getRequestParam($name, $default) {
+    if (isset($_GET[$name]) && strlen(trim($_GET[$name])) > 0) {
+        return trim($_GET [$name]);
+    }
+    if (isset($_POST[$name]) && strlen(trim(urldecode($_POST[$name]))) > 0) {
+        return trim($_POST [$name]);
+    }
+    return $default;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,15 +80,15 @@
             <img src="static/places.png" class="not_selected"/>
             <img src="static/places_selected.png" class="selected"/>
         </a>
-        <a target="_blank" class="btn" href="?page=birthday">
+        <a class="btn" href="?page=birthday">
             <img src="static/birthday.png" class="not_selected"/>
             <img src="static/birthday_selected.png" class="selected"/>
         </a>
-        <a target="game_info_content" class="btn">
+        <a class="btn" href="?page=partner">
             <img src="static/partner.png" class="not_selected"/>
             <img src="static/partner_selected.png" class="selected"/>
         </a>
-        <a target="game_info_content" class="btn">
+        <a class="btn" href="?page=contacts">
             <img src="static/contacts.png" class="not_selected"/>
             <img src="static/contacts_selected.png" class="selected"/>
         </a>
@@ -85,15 +96,22 @@
 
     <div align="center" style="width:700px; min-height: 500px; margin-left: auto; margin-right: auto">
         <?php
-        switch($_GET['page']) {
+        switch(getRequestParam("page", "main")) {
+            case "main":
+                require_once "main.php";
+                break;
             case "places":
                 require_once "places.php";
                 break;
             case "birthday":
-
+                require_once "birthday.php";
                 break;
-            default:
-                require_once "main.php";
+            case "partner":
+                require_once "partner.php";
+                break;
+            case "contacts":
+                require_once "contacts.php";
+                break;
         }
         ?>
     </div>
@@ -103,10 +121,18 @@
     <img style="width: 100%" src="static/background_bottom.jpg"/>
 </div>
 
-<div style="position: fixed; top: 0; right: 0; width: 80px; height: 80px;">
+<div style="position: fixed; top: 0; right: 0;">
     <a href="//vk.com/littlestarkids" target="_blank">
-        <img src="static/vk_top_right.png" style="width: 80px; height: 80px"/><!--TODO resize png-->
+        <img src="static/vk_top_right.png" style="width: 80px; height: 80px"/>
     </a>
+</div>
+<div style="position: fixed; top: 0; left: 0;">
+    <table>
+        <tr>
+            <td><img src="static/call_us.png" style="width: 80px; height: 80px"/></td>
+            <td style="vertical-align: middle; font-size: 20pt">  +7 (977) 822-11-21</td>
+        </tr>
+    </table>
 </div>
 
 </body>
