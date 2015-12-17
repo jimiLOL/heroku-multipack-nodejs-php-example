@@ -62,20 +62,24 @@
     <div id="top" align="center" style="width: 100%;"><img src="static/big_logo.png" style="height: 150px"/></div>
     <div class="button_container" id="button_bar">
         <a class="btn" href="?page=main">
-            <img src="static/news_btn_ru.png" class="not_selected">
-            <img src="static/news_btn_ru_selected.png" class="selected">
+            <img src="static/about.png" class="not_selected">
+            <img src="static/about_selected.png" class="selected">
         </a>
         <a class="btn" href="?page=places">
-            <img src="static/faq_btn_ru.png" class="not_selected"/>
-            <img src="static/faq_btn_ru_selected.png" class="selected"/>
+            <img src="static/places.png" class="not_selected"/>
+            <img src="static/places_selected.png" class="selected"/>
         </a>
-        <a target="_blank" class="btn">
-            <img src="static/group_btn_ru.png" class="not_selected"/>
-            <img src="static/group_btn_ru_selected.png" class="selected"/>
+        <a target="_blank" class="btn" href="?page=birthday">
+            <img src="static/birthday.png" class="not_selected"/>
+            <img src="static/birthday_selected.png" class="selected"/>
         </a>
         <a target="game_info_content" class="btn">
-            <img src="static/help_btn_ru.png" class="not_selected"/>
-            <img src="static/help_btn_ru_selected.png" class="selected"/>
+            <img src="static/partner.png" class="not_selected"/>
+            <img src="static/partner_selected.png" class="selected"/>
+        </a>
+        <a target="game_info_content" class="btn">
+            <img src="static/contacts.png" class="not_selected"/>
+            <img src="static/contacts_selected.png" class="selected"/>
         </a>
     </div>
 
@@ -84,6 +88,9 @@
         switch($_GET['page']) {
             case "places":
                 require_once "places.php";
+                break;
+            case "birthday":
+
                 break;
             default:
                 require_once "main.php";
