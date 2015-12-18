@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="SHORTCUT ICON" href="static/favicon.ico" type="image/x-icon"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
@@ -77,7 +78,7 @@
         <img src="static/help_btn_ru_selected.png" class="selected"/>
     </a>
 </div>
-<div align="center" style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
+<div style="width:700px; height: 1500px; background-image: url('static/text_bg.png');background-repeat: repeat; margin-left: auto; margin-right: auto">
     Сайт временно не работает.<br/>
     Приносим извинения за неудобства.
 </div>
