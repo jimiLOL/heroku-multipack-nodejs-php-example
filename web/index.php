@@ -1,3 +1,14 @@
+<?php
+function getRequestParam($name, $default) {
+    if (isset($_GET[$name]) && strlen(trim($_GET[$name])) > 0) {
+        return trim($_GET [$name]);
+    }
+    if (isset($_POST[$name]) && strlen(trim(urldecode($_POST[$name]))) > 0) {
+        return trim($_POST [$name]);
+    }
+    return $default;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
