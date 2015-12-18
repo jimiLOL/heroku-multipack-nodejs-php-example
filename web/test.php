@@ -59,6 +59,9 @@ function getRequestParam($name, $default) {
         .btn:focus .not_selected {
             display: none;
         }
+        ul {
+            list-style-image: url('static/list_star.png');
+        }
     </style>
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
 <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
