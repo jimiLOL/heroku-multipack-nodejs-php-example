@@ -14,9 +14,9 @@
 <img src="static/aviapark1.png" style="width: 300px"/>
 <img src="static/aviapark2.png" style="width: 300px"/>
 <br/>
-<h2>Скоро открытие</h2>
+<br/>
 Торговый центр Щука
 <br/>
-Москва, ул. Щукинская, д. 42
+Москва, ул. Щукинская, д. 42, 5 этаж
 <br/>
 <img src="static/shuka1.png" style="width: 300px"/>
