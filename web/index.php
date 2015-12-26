@@ -74,7 +74,7 @@ function getRequestParam($name, $default) {
 </head>
 <body>
 <div style="background-image: url('static/background_scale.jpg'); background-size: contain;">
-    <div id="top" align="center" style="width: 100%;"><img src="static/big_logo.png" style="height: 150px"/></div>
+    <div id="top" align="center" style="width: 100%;"><img src="static/big_logo_new_year.png" style="height: 200px"/></div>
     <div class="button_container" id="button_bar">
         <a class="btn" href="?page=main">
             <img src="static/about.png" class="not_selected">
