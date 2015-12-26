@@ -74,7 +74,9 @@ function getRequestParam($name, $default) {
 </head>
 <body>
 <div style="background-image: url('static/background_scale.jpg'); background-size: contain;">
-    <div id="top" align="center" style="width: 100%;"><img src="static/big_logo_new_year.png" style="height: 200px"/></div>
+    <div id="top" align="center" style="width: 100%;">
+        <a href="?page=news"><img src="static/big_logo_new_year.png" style="height: 200px"/></a>
+    </div>
     <div class="button_container" id="button_bar">
         <a class="btn" href="?page=main">
             <img src="static/about.png" class="not_selected">
@@ -100,7 +102,10 @@ function getRequestParam($name, $default) {
 
     <div align="center" style="width:700px; min-height: 500px; margin-left: auto; margin-right: auto">
         <?php
-        switch(getRequestParam("page", "main")) {
+        switch(getRequestParam("page", "news")) {
+            case "news":
+                require_once "news.php";
+                break;
             case "main":
                 require_once "main.php";
                 break;
