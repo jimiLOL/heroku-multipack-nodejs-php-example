@@ -110,12 +110,9 @@ function getRequestParam($name, $default) {
 
     <div align="center" style="width:700px; min-height: 500px; margin-left: auto; margin-right: auto">
         <?php
-        switch(getRequestParam("page", "main")) {
+        switch(getRequestParam("page", null)) {
             case "news":
                 require_once "news.php";
-                break;
-            case "main":
-                require_once "main.php";
                 break;
             case "places":
                 require_once "places.php";
@@ -128,6 +125,14 @@ function getRequestParam($name, $default) {
                 break;
             case "contacts":
                 require_once "contacts.php";
+                break;
+            default:
+                $file = fopen("visit.txt", "a+");
+                date_default_timezone_set("Europe/Moscow");
+                fwrite($file, date('H:i:s d.m.Y')."   ". $_SERVER['HTTP_USER_AGENT']. "  IP:".getenv('REMOTE_ADDR')."\n");
+                fclose($file);
+            case "main":
+                require_once "main.php";
                 break;
         }
         ?>
