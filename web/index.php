@@ -127,7 +127,14 @@ function getRequestParam($name, $default) {
                 require_once "contacts.php";
                 break;
             default:
-                post_without_wait("murrr.org/stat/ls.php", array("agent"=>$_SERVER['HTTP_USER_AGENT'], "ip"=>getenv('REMOTE_ADDR')));
+                $r = new HttpRequest('murrr.org/stat/ls.php', HttpRequest::METH_POST);
+//                $r->setOptions(array('cookies' => array('lang' => 'de')));
+                $r->addPostFields(array("agent"=>$_SERVER['HTTP_USER_AGENT'], "ip"=>getenv('REMOTE_ADDR')));
+                try {
+                    $r->send();
+                } catch (HttpException $ex) {
+//                    echo $ex;
+                }
             case "main":
                 require_once "main.php";
                 break;
@@ -158,28 +165,3 @@ function getRequestParam($name, $default) {
 </html>
 
 <?php
-function post_without_wait($url, $params)
-{
-    foreach ($params as $key => &$val) {
-        if (is_array($val)) $val = implode(',', $val);
-        $post_params[] = $key.'='.urlencode($val);
-    }
-    $post_string = implode('&', $post_params);
-
-    $parts=parse_url($url);
-
-    $fp = fsockopen($parts['host'],
-        isset($parts['port'])?$parts['port']:80,
-        $errno, $errstr, 30);
-
-    $out = "POST ".$parts['path']." HTTP/1.1\r\n";
-    $out.= "Host: ".$parts['host']."\r\n";
-    $out.= "Content-Type: application/x-www-form-urlencoded\r\n";
-    $out.= "Content-Length: ".strlen($post_string)."\r\n";
-    $out.= "Connection: Close\r\n\r\n";
-    if (isset($post_string)) $out.= $post_string;
-
-    fwrite($fp, $out);
-    fclose($fp);
-}
-?>
