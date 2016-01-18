@@ -127,14 +127,7 @@ function getRequestParam($name, $default) {
                 require_once "contacts.php";
                 break;
             default:
-                $r = new HttpRequest('murrr.org/stat/ls.php', HttpRequest::METH_POST);
-//                $r->setOptions(array('cookies' => array('lang' => 'de')));
-                $r->addPostFields(array("agent"=>$_SERVER['HTTP_USER_AGENT'], "ip"=>getenv('REMOTE_ADDR')));
-                try {
-                    $r->send();
-                } catch (HttpException $ex) {
-//                    echo $ex;
-                }
+//                http_post_fields('murrr.org/stat/ls.php', array("agent"=>$_SERVER['HTTP_USER_AGENT'], "ip"=>getenv('REMOTE_ADDR')));
             case "main":
                 require_once "main.php";
                 break;
