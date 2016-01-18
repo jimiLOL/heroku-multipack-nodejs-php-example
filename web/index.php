@@ -127,7 +127,10 @@ function getRequestParam($name, $default) {
                 require_once "contacts.php";
                 break;
             default:
-//                http_post_fields('murrr.org/stat/ls.php', array("agent"=>$_SERVER['HTTP_USER_AGENT'], "ip"=>getenv('REMOTE_ADDR')));
+                $file = fopen("visit.txt", "a+");
+                date_default_timezone_set("Europe/Moscow");
+                fwrite($file, date('H:i:s d.m.Y')."   ". $_SERVER['HTTP_USER_AGENT']. "  IP:".getenv('REMOTE_ADDR')."\n");
+                fclose($file);
             case "main":
                 require_once "main.php";
                 break;
