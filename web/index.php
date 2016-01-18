@@ -163,5 +163,3 @@ function getRequestParam($name, $default) {
 
 </body>
 </html>
-
-<?php
