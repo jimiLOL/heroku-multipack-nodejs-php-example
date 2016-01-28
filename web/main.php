@@ -1,5 +1,10 @@
 <h1>Новости:</h1>
 <br/>
+<img src="static/photo_contest.jpg"/>
+<br/>
+<br/>
+<img src="static/birthday_bonus.jpg"/>
+<br/>
 Ура! Мы открылись! ТРК "Щука", 5 этаж
 <br/>
 <br/>
