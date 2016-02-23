@@ -76,6 +76,12 @@
             border-image-repeat:round;
             border-image-slice:100 100 100 100 fill;
         }
+
+        .btn2 {
+            height: 100%;
+            /*max-width: 20%;*/
+        }
+
     </style>
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
     <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
@@ -87,11 +93,14 @@
 </head>
 <body>
 <div style="background-image: url('static/new/middle.png'); background-size: contain;">
-    <div style='width: 100%; background-image: url("static/new/top_panel.png"); height: 80px'>
-
+    <div style='position: absolute; width: 100%; background-image: url("static/new/top_panel.png"); background-repeat: repeat-x; text-align: center; height: 8%'>
+        <img src="static/new/text/about.png" class="btn2"/>
+        <img src="static/new/text/places.png" class="btn2"/>
+        <img src="static/new/text/birthday.png" class="btn2"/>
+        <img src="static/new/text/partner.png" class="btn2"/>
+        <img src="static/new/text/contact.png" class="btn2"/>
     </div>
     <div align="center" style="width: 100%;">
-<!--        <a href="?page=news"><img src="static/big_logo_new_year.png" style="height: 200px"/></a>-->
         <img src="static/new/background_top.jpg" style="width: 100%"/>
     </div>
     <!--<div class="button_container" id="button_bar">
@@ -119,7 +128,7 @@
 
     <div align="center" class="content_back">
         <div style="width: 100%; height: 100%; min-height: 500px">
-            СОДЕРЖИМОЕ
+            СОДЕРЖИМОЕ CONTENT
         </div>
     </div>
 </div>
