@@ -172,14 +172,14 @@ function getRequestParam($name, $default) {
     <img style="width: 100%" src="static/new/background_bottom.jpg"/>
 </div>
 
-<div style="position: absolute; top: 0; left: 0;">
-    <table>
-        <tr>
-            <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>
-            <td style="vertical-align: middle; font-size: 16pt">  +7 (977) 822-11-21</td>
-        </tr>
-    </table>
-</div>
+<!--<div style="position: absolute; top: 0; left: 0;">-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>-->
+<!--            <td style="vertical-align: middle; font-size: 16pt">  +7 (977) 822-11-21</td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--</div>-->
 
 </body>
 </html>
