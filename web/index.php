@@ -70,6 +70,24 @@ function getRequestParam($name, $default) {
         body {
             font-size: 120%;
         }
+
+        .content_back {
+            width:85%;
+            margin-left: auto;
+            margin-right: auto;
+
+            border: 50px solid transparent;
+            -webkit-border-image: url(static/new/border.png);
+            -webkit-border-image-repeat:round;
+            -webkit-border-image-slice:100 100 100 100 fill;
+            -o-border-image: url(static/new/border.png);
+            -o-border-image-repeat:round;
+            -o-border-image-slice:100 100 100 100 fill;
+            border-image: url(static/new/border.png);
+            border-image-repeat:round;
+            border-image-slice:100 100 100 100 fill;
+        }
+
     </style>
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
     <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
@@ -80,81 +98,72 @@ function getRequestParam($name, $default) {
     </script>
 </head>
 <body>
-<div style="background-image: url('static/background_scale.jpg'); background-size: contain;">
-    <div align="center" style="width: 100%;">
-<!--        <a href="?page=news"><img src="static/big_logo_new_year.png" style="height: 200px"/></a>-->
-        <img src="static/big_logo.png" style="height: 200px"/>
-    </div>
-    <div class="button_container" id="button_bar">
+<div style="background-image: url('static/new/middle.png'); background-size: contain;">
+    <div style='position: absolute; width: 100%; background-image: url("static/new/top_panel.png"); background-repeat: repeat-x; text-align: center'>
         <a class="btn" href="?page=main">
-            <img src="static/about.png" class="not_selected">
-            <img src="static/about_selected.png" class="selected">
+            <img src="static/new/text/about.png" class="not_selected" style="width: 10.0%">
+            <img src="static/new/text/about_selected.png" class="selected" style="width: 10.0%">
         </a>
+        <img src="static/new/text/separator.png" style="width: 0.6%"/>
         <a class="btn" href="?page=places">
-            <img src="static/places.png" class="not_selected"/>
-            <img src="static/places_selected.png" class="selected"/>
+            <img src="static/new/text/places.png" class="not_selected" style="width: 18.5%"/>
+            <img src="static/new/text/places_selected.png" class="selected" style="width: 18.5%"/>
         </a>
+        <img src="static/new/text/separator.png" style="width: 0.6%"/>
         <a class="btn" href="?page=birthday">
-            <img src="static/birthday.png" class="not_selected"/>
-            <img src="static/birthday_selected.png" class="selected"/>
+            <img src="static/new/text/birthday.png" class="not_selected" style="width: 27.4%"/>
+            <img src="static/new/text/birthday_selected.png" class="selected" style="width: 27.4%"/>
         </a>
+        <img src="static/new/text/separator.png" style="width: 0.6%"/>
         <a class="btn" href="?page=partner">
-            <img src="static/partner.png" class="not_selected"/>
-            <img src="static/partner_selected.png" class="selected"/>
+            <img src="static/new/text/partner.png" class="not_selected" style="width: 19.9%"/>
+            <img src="static/new/text/partner_selected.png" class="selected" style="width: 19.9%"/>
         </a>
+        <img src="static/new/text/separator.png" style="width: 0.6%"/>
         <a class="btn" href="?page=contacts">
-            <img src="static/contacts.png" class="not_selected"/>
-            <img src="static/contacts_selected.png" class="selected"/>
+            <img src="static/new/text/contact.png" class="not_selected" style="width: 16.3%"/>
+            <img src="static/new/text/contact_selected.png" class="selected" style="width: 16.3%"/>
         </a>
     </div>
+    <div align="center" style="width: 100%;">
+        <img src="static/new/background_top.jpg" style="width: 100%"/>
+    </div>
+    <div align="center" class="content_back">
+        <div style="width: 100%; height: 100%; min-height: 500px">
+            <?php
+            switch(getRequestParam("page", null)) {
+                case "news":
+                    require_once "news.php";
+                    break;
+                case "places":
+                    require_once "places.php";
+                    break;
+                case "birthday":
+                    require_once "birthday.php";
+                    break;
+                case "partner":
+                    require_once "partner.php";
+                    break;
+                case "contacts":
+                    require_once "contacts.php";
+                    break;
+                default:
+                    $file = fopen("visit.txt", "a+");
+                    date_default_timezone_set("Europe/Moscow");
+                    fwrite($file, date('H:i:s d.m.Y')."   ". $_SERVER['HTTP_USER_AGENT']. "  IP:".getenv('REMOTE_ADDR')."\n");
+                    fclose($file);
+                case "main":
+                    require_once "main.php";
+                    break;
+            }
+            ?>
 
-    <div align="center" style="width:700px; min-height: 500px; margin-left: auto; margin-right: auto">
-        <?php
-        switch(getRequestParam("page", null)) {
-            case "news":
-                require_once "news.php";
-                break;
-            case "places":
-                require_once "places.php";
-                break;
-            case "birthday":
-                require_once "birthday.php";
-                break;
-            case "partner":
-                require_once "partner.php";
-                break;
-            case "contacts":
-                require_once "contacts.php";
-                break;
-            default:
-                $file = fopen("visit.txt", "a+");
-                date_default_timezone_set("Europe/Moscow");
-                fwrite($file, date('H:i:s d.m.Y')."   ". $_SERVER['HTTP_USER_AGENT']. "  IP:".getenv('REMOTE_ADDR')."\n");
-                fclose($file);
-            case "main":
-                require_once "main.php";
-                break;
-        }
-        ?>
+        </div>
     </div>
 </div>
 
 <div>
-    <img style="width: 100%" src="static/background_bottom.jpg"/>
-</div>
-
-<!--<div style="position: fixed; top: 0; right: 0;">-->
-<!--    <a href="//vk.com/littlestarkids" target="_blank">-->
-<!--        <img src="static/vk_top_right.png" style="width: 80px; height: 80px"/>-->
-<!--    </a>-->
-<!--</div>-->
-<div style="position: absolute; top: 0; left: 0;">
-    <table>
-        <tr>
-            <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>
-            <td style="vertical-align: middle; font-size: 16pt">  +7 (977) 822-11-21</td>
-        </tr>
-    </table>
+    <img style="width: 100%" src="static/new/background_bottom.jpg"/>
 </div>
 
 </body>
