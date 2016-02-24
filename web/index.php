@@ -41,6 +41,9 @@ function getRequestParam($name, $default) {
             margin-left: auto;
             margin-right: auto;
             text-align: center;/*for internet explorer*/
+            position: absolute;
+            background-image: url("static/new/top_panel.png");
+            background-repeat: repeat-x;
         }
         .btn {
             text-decoration: none;
@@ -99,8 +102,8 @@ function getRequestParam($name, $default) {
 </head>
 <body>
 <div style="background-image: url('static/new/middle.png'); background-size: contain;">
-    <div style='position: absolute; width: 100%; background-image: url("static/new/top_panel.png"); background-repeat: repeat-x; text-align: center'>
-        <a class="btn" href="?page=main">
+    <div class="button_container">
+        <a class="btn" href="?page=about">
             <img src="static/new/text/about.png" class="not_selected" style="width: 10.0%">
             <img src="static/new/text/about_selected.png" class="selected" style="width: 10.0%">
         </a>
@@ -146,6 +149,9 @@ function getRequestParam($name, $default) {
                     break;
                 case "contacts":
                     require_once "contacts.php";
+                    break;
+                case "about":
+                    require_once "about.php";
                     break;
                 default:
                     $file = fopen("visit.txt", "a+");
