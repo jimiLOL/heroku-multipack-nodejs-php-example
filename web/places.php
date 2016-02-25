@@ -14,6 +14,7 @@
 <br/>
 <img src="static/aviapark1.png" style="height: 200px"/>
 <img src="static/aviapark2.png" style="height: 200px"/>
+<img src="static/map.png" style="height: 200px;"/>
 <br/>
 <br/>
 Торговый центр Щука
@@ -22,6 +23,7 @@
 <br/>
 <img src="static/shuka1.png" style="height: 200px"/>
 <img src="static/shuka2.png" style="height: 200px"/>
+<img src="static/map.png" style="height: 200px;"/>
 <br/>
 <br/>
 <h1>Скоро открытие:</h1>
@@ -30,3 +32,4 @@
 Москва, ул. Автозаводская, д. 16
 <br/>
 <img src="static/rivera1.png" style="height: 200px"/>
+<img src="static/map.png" style="height: 200px;"/>
