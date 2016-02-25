@@ -5,6 +5,7 @@
 <br/>
 <img src="static/columbus1.png" style="height: 200px"/>
 <img src="static/columbus2.png" style="height: 200px"/>
+<img src="static/map.png" style="height: 200px;"/>
 <br/>
 <br/>
 Торговый центр Авиапарк
