@@ -41,7 +41,6 @@ function getRequestParam($name, $default) {
             margin-left: auto;
             margin-right: auto;
             text-align: center;/*for internet explorer*/
-            position: absolute;
             background-image: url("static/new/top_panel.png");
             background-repeat: repeat-x;
         }
@@ -102,31 +101,39 @@ function getRequestParam($name, $default) {
 </head>
 <body>
 <div style="background-image: url('static/new/middle.png'); background-size: contain;">
-    <div class="button_container">
-        <a class="btn" href="?page=about">
-            <img src="static/new/text/about.png" class="not_selected" style="width: 10.0%">
-            <img src="static/new/text/about_selected.png" class="selected" style="width: 10.0%">
-        </a>
-        <img src="static/new/text/separator.png" style="width: 0.6%"/>
-        <a class="btn" href="?page=places">
-            <img src="static/new/text/places.png" class="not_selected" style="width: 18.5%"/>
-            <img src="static/new/text/places_selected.png" class="selected" style="width: 18.5%"/>
-        </a>
-        <img src="static/new/text/separator.png" style="width: 0.6%"/>
-        <a class="btn" href="?page=birthday">
-            <img src="static/new/text/birthday.png" class="not_selected" style="width: 27.4%"/>
-            <img src="static/new/text/birthday_selected.png" class="selected" style="width: 27.4%"/>
-        </a>
-        <img src="static/new/text/separator.png" style="width: 0.6%"/>
-        <a class="btn" href="?page=partner">
-            <img src="static/new/text/partner.png" class="not_selected" style="width: 19.9%"/>
-            <img src="static/new/text/partner_selected.png" class="selected" style="width: 19.9%"/>
-        </a>
-        <img src="static/new/text/separator.png" style="width: 0.6%"/>
-        <a class="btn" href="?page=contacts">
-            <img src="static/new/text/contact.png" class="not_selected" style="width: 16.3%"/>
-            <img src="static/new/text/contact_selected.png" class="selected" style="width: 16.3%"/>
-        </a>
+    <div style="position: absolute;">
+        <div class="button_container">
+            <a class="btn" href="?page=about">
+                <img src="static/new/text/about.png" class="not_selected" style="width: 10.0%">
+                <img src="static/new/text/about_selected.png" class="selected" style="width: 10.0%">
+            </a>
+            <img src="static/new/text/separator.png" style="width: 0.6%"/>
+            <a class="btn" href="?page=places">
+                <img src="static/new/text/places.png" class="not_selected" style="width: 18.5%"/>
+                <img src="static/new/text/places_selected.png" class="selected" style="width: 18.5%"/>
+            </a>
+            <img src="static/new/text/separator.png" style="width: 0.6%"/>
+            <a class="btn" href="?page=birthday">
+                <img src="static/new/text/birthday.png" class="not_selected" style="width: 27.4%"/>
+                <img src="static/new/text/birthday_selected.png" class="selected" style="width: 27.4%"/>
+            </a>
+            <img src="static/new/text/separator.png" style="width: 0.6%"/>
+            <a class="btn" href="?page=partner">
+                <img src="static/new/text/partner.png" class="not_selected" style="width: 19.9%"/>
+                <img src="static/new/text/partner_selected.png" class="selected" style="width: 19.9%"/>
+            </a>
+            <img src="static/new/text/separator.png" style="width: 0.6%"/>
+            <a class="btn" href="?page=contacts">
+                <img src="static/new/text/contact.png" class="not_selected" style="width: 16.3%"/>
+                <img src="static/new/text/contact_selected.png" class="selected" style="width: 16.3%"/>
+            </a>
+        </div>
+        <table style="margin: 10px; float: right">
+            <tr>
+                <td style="vertical-align: middle; font-size: xx-large; color: white"> <b>+7 (977) 822-11-21</b> </td>
+<!--                <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>-->
+            </tr>
+        </table>
     </div>
     <div align="center" style="width: 100%;">
         <img src="static/new/background_top.jpg" style="width: 100%"/>
