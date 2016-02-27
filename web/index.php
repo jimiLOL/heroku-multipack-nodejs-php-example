@@ -128,15 +128,17 @@ function getRequestParam($name, $default) {
                 <img src="static/new/text/contact_selected.png" class="selected" style="width: 16.3%"/>
             </a>
         </div>
-        <table style="margin: 10px; float: right">
-            <tr>
-                <td style="vertical-align: middle; font-size: xx-large; color: white"> <b>+7 (977) 822-11-21</b> </td>
-<!--                <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>-->
-            </tr>
-        </table>
     </div>
     <div align="center" style="width: 100%;">
         <img src="static/new/background_top.jpg" style="width: 100%"/>
+        <div style="position: absolute; left: 2%; top: 70%">
+            <table style="margin: 10px; float: right">
+                <tr>
+                    <td style="vertical-align: middle; font-size: xx-large; color: white"> <b>+7 (977) 822-11-21</b> </td>
+                    <!--                <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>-->
+                </tr>
+            </table>
+        </div>
     </div>
     <div align="center" class="content_back">
         <div style="width: 100%; height: 100%; min-height: 500px">
