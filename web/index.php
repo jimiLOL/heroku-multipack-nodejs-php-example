@@ -134,7 +134,7 @@ function getRequestParam($name, $default) {
         <div style="position: absolute; left: 2%; top: 70%">
             <table style="margin: 10px; float: right">
                 <tr>
-                    <td style="vertical-align: middle; font-size: xx-large; color: white"> <b>+7 (977) 822-11-21</b> </td>
+                    <td style="vertical-align: middle;"> <b style="font-size: xx-large; color: white">+7 (977) 822-11-21</b> </td>
                     <!--                <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>-->
                 </tr>
             </table>
