@@ -139,7 +139,7 @@ function getRequestParam($name, $default) {
         <table style="width: 100%; line-height: 0" class="top">
             <tr>
                 <td style="background-image: url('static/new/top_1_1.png'); background-size: 100%; vertical-align: middle; text-align: center">
-                    <a href="?page=main"><img src="static/new/logo_big.png" style="width: 100%"/></a>
+                    <a href="?page=main"><img src="static/new/logo_big.png" style="width: 80%"/></a>
                 </td>
                 <td><img src="static/new/top_1_2.jpg" style="width: 100%"/></td>
             </tr>
