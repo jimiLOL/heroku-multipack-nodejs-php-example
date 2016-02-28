@@ -26,6 +26,7 @@ function getRequestParam($name, $default) {
             outline: 0;
             font-size: 100%;
             vertical-align: baseline;
+            border-spacing: 0;
             /*background: transparent;*/
         }
         html {
@@ -89,7 +90,12 @@ function getRequestParam($name, $default) {
             border-image-repeat:round;
             border-image-slice:100 100 100 100 fill;
         }
-
+        .top td:nth-child(1), {
+            width: 31.5%;
+        }
+        .top td:nth-child(2) {
+            width: 68.5%;
+        }
     </style>
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
     <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
@@ -130,15 +136,24 @@ function getRequestParam($name, $default) {
         </div>
     </div>
     <div align="center" style="width: 100%;">
-        <img src="static/new/background_top.jpg" style="width: 100%"/>
-        <div style="position: absolute; left: 2%; top: 70%">
-            <table style="margin: 10px; float: right">
-                <tr>
-                    <td style="vertical-align: middle;"> <b style="font-size: xx-large; color: white">+7 (977) 822-11-21</b> </td>
-                    <!--                <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>-->
-                </tr>
-            </table>
-        </div>
+        <table style="width: 100%; line-height: 0" class="top">
+            <tr>
+                <td style="background-image: url('static/new/top_1_1.png'); background-size: 100%; vertical-align: middle; text-align: center">
+                    <a href="?page=main"><img src="static/new/logo_big.png" style="width: 100%"/></a>
+                </td>
+                <td><img src="static/new/top_1_2.jpg" style="width: 100%"/></td>
+            </tr>
+            <tr>
+                <td style="background-image: url('static/new/top_2_1.png'); background-size: 100%; vertical-align: middle; text-align: center">
+                    <span style="font-size: xx-large; color: white; line-height: normal">
+                        <b >+7 (977) 822-11-21</b><br/>
+                        Детские игровые площадки
+                    </span>
+
+                </td>
+                <td><img src="static/new/top_2_2.jpg" style="width: 100%"/></td>
+            </tr>
+        </table>
     </div>
     <div align="center" class="content_back">
         <div style="width: 100%; height: 100%; min-height: 500px">
