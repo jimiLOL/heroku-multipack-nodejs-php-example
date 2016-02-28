@@ -150,7 +150,7 @@ function getRequestParam($name, $default) {
             <tr>
                 <td style="background-image: url('static/new/top_2_1.png'); background-size: 100.3%; vertical-align: middle; text-align: center">
                     <div class="phone" style="font-size: xx-large; color: white; line-height: normal">
-                        <a href="http://ya.ru"><b >+7 (977) 822-11-21</b></a>
+                        <b >+7 (977) 822-11-21</b>
                     </div>
 
                 </td>
