@@ -146,8 +146,7 @@ function getRequestParam($name, $default) {
             <tr>
                 <td style="background-image: url('static/new/top_2_1.png'); background-size: 100%; vertical-align: middle; text-align: center">
                     <span style="font-size: xx-large; color: white; line-height: normal">
-                        <b >+7 (977) 822-11-21</b><br/>
-                        Детские игровые площадки
+                        <b >+7 (977) 822-11-21</b>
                     </span>
 
                 </td>
