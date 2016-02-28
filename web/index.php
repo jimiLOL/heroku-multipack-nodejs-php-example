@@ -96,6 +96,10 @@ function getRequestParam($name, $default) {
         .top td:nth-child(2) {
             width: 68.5%;
         }
+        .phone :link { color:#ffffff; }
+        .phone :visited { color:#ffffff; }
+        .phone :hover { color:#ffffff; }
+        .phone :active { color:#ffffff; }
     </style>
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
     <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
@@ -145,9 +149,9 @@ function getRequestParam($name, $default) {
             </tr>
             <tr>
                 <td style="background-image: url('static/new/top_2_1.png'); background-size: 100.3%; vertical-align: middle; text-align: center">
-                    <span style="font-size: xx-large; color: white; line-height: normal">
-                        <b >+7 (977) 822-11-21</b>
-                    </span>
+                    <div class="phone" style="font-size: xx-large; color: white; line-height: normal">
+                        <a href="http://ya.ru"><b >+7 (977) 822-11-21</b></a>
+                    </div>
 
                 </td>
                 <td><img src="static/new/top_2_2.jpg" style="width: 100%"/></td>
