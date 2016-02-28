@@ -1,5 +1,5 @@
 <style type="text/css">
-    td {
+    .contacts_t td {
         vertical-align: middle;
         margin-left: 5px;
         border-left: 5px;
@@ -7,7 +7,7 @@
     }
 </style>
 <h1>Контакты</h1>
-<table>
+<table class="contacts_t">
     <tr>
         <td>
             <img style="height: 80px;" src="static/call_us.png">
