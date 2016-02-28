@@ -111,7 +111,7 @@ function getRequestParam($name, $default) {
 </head>
 <body>
 <div style="background-image: url('static/new/middle.png'); background-size: contain;">
-    <div style="position: absolute;">
+    <div style="position: fixed;">
         <div class="button_container">
             <a class="btn" href="?page=about">
                 <img src="static/new/text/about.png" class="not_selected" style="width: 10.0%">
