@@ -46,7 +46,7 @@
         <img style="width: 30%" src="static/new/schuka/small_8.jpg"/>
     </a>
     <br/>
-    <h2>Детская комната для торжества (party room)</h2>
+    <h2>Комната для проведения дня рождения (party room)</h2>
     <a href="photos.php?place=schuka&photo=9.jpg">
         <img style="width: 30%" src="static/new/schuka/small_9.jpg"/>
     </a>

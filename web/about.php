@@ -21,5 +21,7 @@ LITTLE STAR – это сеть современных крытых развле
         </li>
     </ul>
 </div>
-<img src="static/main1.png"/>
-<img src="static/main2.png"/>
+<img src="static/new/map_all.png" style="width: 45%"/>
+<br/>
+<img src="static/main1.png" style="width: 40%"/>
+<img src="static/main2.png" style="width: 40%"/>
