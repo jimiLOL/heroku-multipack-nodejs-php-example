@@ -32,6 +32,7 @@
 </div>
 
 <br/>
+<img style="width: 50%" src="static/new/schuka/9.jpg"/>
 <img src="static/birthday1.png"/>
 <hr/>
 <div style="font-style: italic; text-align: justify; font-size: 80%">

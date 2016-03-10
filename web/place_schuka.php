@@ -1,4 +1,14 @@
 <h1>Щука</h1>
+<table style="width: 90%">
+    <tr>
+        <td style="width: 30%; vertical-align: middle">
+            <img src="static/schuka1.png" style="width: 100%"/>
+        </td>
+        <td style="width: 70%">
+            <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=PpcilEeC3tgD0zgddeFcIem0vMmCIaZa&width=100%&height=400&lang=ru_RU&sourceType=constructor"></script>
+        </td>
+    </tr>
+</table>
 <p>Детская развлекательная площадка Little Star расположена на 5 этаже ТРК «Щука» в непосредственной близости от станции метро Щукинская. Эта площадка немного отличается от других наших площадок: помимо веселых горок и каруселей здесь расположена зона с игрушками и специальная комната для проведения дней рождений (party room).</p>
 <p>
     Адрес: Москва, ул. Щукинская, д. 42 <br/>
@@ -9,5 +19,35 @@
 
 <?php require_once "places_text_bottom.php"?>
 
-<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=PpcilEeC3tgD0zgddeFcIem0vMmCIaZa&width=500&height=400&lang=ru_RU&sourceType=constructor"></script>
+<div id="photos">
+    <a href="photos.php?place=schuka&photo=1.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_1.jpg"/>
+    </a>
+    <a href="photos.php?place=schuka&photo=2.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_2.jpg"/>
+    </a>
+    <a href="photos.php?place=schuka&photo=6.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_6.jpg"/>
+    </a>
+    <a href="photos.php?place=schuka&photo=4.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_4.jpg"/>
+    </a>
+    <a href="photos.php?place=schuka&photo=5.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_5.jpg"/>
+    </a>
+    <a href="photos.php?place=schuka&photo=3.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_3.jpg"/>
+    </a>
 
+    <a href="photos.php?place=schuka&photo=7.jpg"
+        <img style="width: 30%" src="static/new/schuka/small_7.jpg"/>
+    </a>
+    <a href="photos.php?place=schuka&photo=8.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_8.jpg"/>
+    </a>
+    <br/>
+    <h2>Детская комната для торжества (party room)</h2>
+    <a href="photos.php?place=schuka&photo=9.jpg">
+        <img style="width: 30%" src="static/new/schuka/small_9.jpg"/>
+    </a>
+</div>

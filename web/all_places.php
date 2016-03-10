@@ -6,7 +6,7 @@
     <br/>
     <img src="static/columbus1.png" style="height: 200px"/>
     <img src="static/columbus2.png" style="height: 200px"/>
-    <img src="static/map.png" style="height: 200px;"/>
+    <img src="static/new/map_columbus.png" style="height: 200px;"/>
 </a>
 <br/>
 <br/>
@@ -17,7 +17,7 @@
     <br/>
     <img src="static/aviapark1.png" style="height: 200px"/>
     <img src="static/aviapark2.png" style="height: 200px"/>
-    <img src="static/map.png" style="height: 200px;"/>
+    <img src="static/new/map_aviapark.png" style="height: 200px;"/>
 </a>
 <br/>
 <br/>
@@ -26,9 +26,9 @@
     <br/>
     Москва, ул. Щукинская, д. 42, 5 этаж
     <br/>
-    <img src="static/shuka1.png" style="height: 200px"/>
-    <img src="static/shuka2.png" style="height: 200px"/>
-    <img src="static/map.png" style="height: 200px;"/>
+    <img src="static/schuka1.png" style="height: 200px"/>
+    <img src="static/schuka2.png" style="height: 200px"/>
+    <img src="static/new/map_schuka.png" style="height: 200px;"/>
 </a>
 <br/>
 <br/>
@@ -39,5 +39,5 @@
     Москва, ул. Автозаводская, д. 16
     <br/>
     <img src="static/rivera1.png" style="height: 200px"/>
-    <img src="static/map.png" style="height: 200px;"/>
+    <img src="static/new/map_rivera.png" style="height: 200px;"/>
 </a>
