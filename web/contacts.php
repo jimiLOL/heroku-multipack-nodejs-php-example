@@ -18,7 +18,9 @@
     </tr>
     <tr>
         <td>
-            <img style="height: 80px;" src="static/vk_top_right.png"/>
+            <a href="http://vk.com/littlestarkids">
+                <img style="height: 80px;" src="static/vk_top_right.png"/>
+            </a>
         </td>
         <td>
             <a href="http://vk.com/littlestarkids">vk.com/littlestarkids</a>
@@ -30,6 +32,16 @@
         </td>
         <td>
             littlestarkids@mail.ru
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.instagram.com/littlestar_russia/">
+                <img style="height: 80px" src="static/new/instagram.png"/>
+            </a>
+        </td>
+        <td>
+            <a href="https://www.instagram.com/littlestar_russia/">instagram.com/littlestar_russia/</a>
         </td>
     </tr>
 </table>

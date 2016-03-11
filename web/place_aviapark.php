@@ -32,9 +32,9 @@
     <a href="photos.php?place=aviapark&photo=3.jpg">
         <img style="width: 30%" src="static/new/aviapark/small_3.jpg"/>
     </a>
-    <a href="photos.php?place=aviapark&photo=4.jpg">
-        <img style="width: 30%" src="static/new/aviapark/small_4.jpg"/>
-    </a>
+<!--    <a href="photos.php?place=aviapark&photo=4.jpg">-->
+<!--        <img style="width: 30%" src="static/new/aviapark/small_4.jpg"/>-->
+<!--    </a>-->
     <a href="photos.php?place=aviapark&photo=5.jpg">
         <img style="width: 30%" src="static/new/aviapark/small_5.jpg"/>
     </a>
@@ -48,3 +48,4 @@
         <img style="width: 30%" src="static/new/aviapark/small_8.jpg"/>
     </a>
 </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-SqyZwuey7s" frameborder="0" allowfullscreen></iframe>
