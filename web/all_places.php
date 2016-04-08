@@ -36,7 +36,7 @@
     <h1>Скоро открытие:</h1>
     ТРЦ "Ривьера"
     <br/>
-    Москва, ул. Автозаводская, д. 16
+    Москва, ул. Автозаводская, д. 18
     <br/>
     <img src="static/rivera1.png" style="height: 200px"/>
     <img src="static/new/map_rivera.png" style="height: 200px;"/>
