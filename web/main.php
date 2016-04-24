@@ -77,6 +77,9 @@
 <br/>
 <img src="static/news1.jpg"/>
 
-
+<?php
+$agent = urlencode($_SERVER['HTTP_USER_AGENT']);
+$ip = urlencode(getenv('REMOTE_ADDR'));
+file_get_contents("http://littlestar.freevar.com/stat.php?page=main&?ip=$ip&agent=$agent")?>
 <!--        <div id="vk_groups"></div>-->
 <!--        <div id="vk_like"></div>-->

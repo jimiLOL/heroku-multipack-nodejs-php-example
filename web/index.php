@@ -10,7 +10,7 @@ function getRequestParam($name, $default) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <link rel="SHORTCUT ICON" href="static/favicon.ico" type="image/x-icon"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -181,10 +181,10 @@ function getRequestParam($name, $default) {
                     require_once "about.php";
                     break;
                 default:
-                    $file = fopen("visit.txt", "a+");
-                    date_default_timezone_set("Europe/Moscow");
-                    fwrite($file, date('H:i:s d.m.Y')."   ". $_SERVER['HTTP_USER_AGENT']. "  IP:".getenv('REMOTE_ADDR')."\n");
-                    fclose($file);
+//                    $file = fopen("visit.txt", "a+");
+//                    date_default_timezone_set("Europe/Moscow");
+//                    fwrite($file, date('H:i:s d.m.Y')."   ". $_SERVER['HTTP_USER_AGENT']. "  IP:".getenv('REMOTE_ADDR')."\n");
+//                    fclose($file);
                 case "main":
                     require_once "main.php";
                     break;
