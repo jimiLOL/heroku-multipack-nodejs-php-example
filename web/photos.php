@@ -24,6 +24,5 @@ function getRequestParam($name, $default) {
     <img src='static/<?php echo getRequestParam("place", "");?>1.png' style="width: 30%"/>
 </a>
 
-</a>
 </body>
 </html>

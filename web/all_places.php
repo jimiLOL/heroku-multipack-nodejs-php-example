@@ -33,11 +33,19 @@
 <br/>
 <br/>
 <a href="?page=places&place=rivera">
-    <h1>Скоро открытие:</h1>
     ТРЦ "Ривьера"
     <br/>
     Москва, ул. Автозаводская, д. 18
     <br/>
     <img src="static/rivera1.png" style="height: 200px"/>
-    <img src="static/new/map_rivera.png" style="height: 200px;"/>
+    <img src="static/new/map_rivera.png" style="height: 200px"/>
+</a>
+<br/>
+<br/>
+<a href="?page=places&place=serpu">
+    ТРК "Б-Класс"
+    <br/>
+    г. Серпухов, Московское шоссе, д. 55, корп. 2, 3 этаж
+    <br/>
+    <img src="static/serpu1.jpg" style="height: 200px"/>
 </a>

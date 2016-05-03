@@ -12,3 +12,38 @@
         </td>
     </tr>
 </table>
+<div style="text-align: justify">
+    <br/>
+    Детская развлекательная площадка Little Star расположена на 3 уровне ТРЦ Ривьера.
+    <br/>
+    Адрес: ул. Автозаводская, д. 18
+    <br/>
+    ТРЦ «Ривьера» находится на одной из самых оживленных магистралей в Москве — Третьем Транспортном Кольце (ТТК), в 10 минутах ходьбы от станций метро «Автозаводская» и «Тульская». Для посетителей, приехавших на автомобиле, предусмотрены удобные подъездные пути как с ТТК, так и ул. Ленинская Слобода. Непосредственно перед ТРЦ «Ривьера» размещаются две остановки общественного транспорта, где останавливаются 11 маршрутов автобусов и 4 маршрута троллейбусов, а от метро будут курсировать бесплатные шаттлы ТРЦ.
+    <br/>
+    Мы работаем в режиме торгового центра.
+    <br/>
+    Детская развлекательная площадка Little Star – это целый мир, в котором оживают волшебные персонажи, приглашая в увлекательное путешествие по своей стране. Хотите настоящих чудес? Приходите к нам! Гостей ждут горки, сухой бассейн с шариками, батут, карусели и мягкий конструктор. Здесь созданы все условия для интересной и безопасной игры.
+    <br/>
+    <br/>
+</div>
+<?php require_once "places_text_bottom.php"?>
+<div id="photos">
+    <a href="photos.php?place=rivera&photo=1.jpg">
+        <img style="width: 30%" src="static/new/rivera/small_1.jpg"/>
+    </a>
+    <a href="photos.php?place=rivera&photo=2.jpg">
+        <img style="width: 30%" src="static/new/rivera/small_2.jpg"/>
+    </a>
+    <a href="photos.php?place=rivera&photo=3.jpg">
+        <img style="width: 30%" src="static/new/rivera/small_3.jpg"/>
+    </a>
+    <a href="photos.php?place=rivera&photo=4.jpg">
+        <img style="width: 30%" src="static/new/rivera/small_4.jpg"/>
+    </a>
+    <a href="photos.php?place=rivera&photo=5.jpg">
+        <img style="width: 30%" src="static/new/rivera/small_5.jpg"/>
+    </a>
+    <a href="photos.php?place=rivera&photo=6.jpg">
+        <img style="width: 30%" src="static/new/rivera/small_6.jpg"/>
+    </a>
+</div>
