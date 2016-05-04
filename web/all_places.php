@@ -38,6 +38,7 @@
     Москва, ул. Автозаводская, д. 18
     <br/>
     <img src="static/rivera1.png" style="height: 200px"/>
+    <img src="static/rivera2.png" style="height: 200px"/>
     <img src="static/new/map_rivera.png" style="height: 200px"/>
 </a>
 <br/>
@@ -47,5 +48,6 @@
     <br/>
     г. Серпухов, Московское шоссе, д. 55, корп. 2, 3 этаж
     <br/>
-    <img src="static/serpu1.jpg" style="height: 200px"/>
+    <img src="static/serpu1.png" style="height: 200px"/>
+    <img src="static/serpu2.png" style="height: 200px"/>
 </a>
