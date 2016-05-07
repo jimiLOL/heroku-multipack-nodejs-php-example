@@ -13,10 +13,12 @@ function getRequestParam($name, $default) {
 <html lang="ru">
 <head>
     <link rel="SHORTCUT ICON" href="static/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" sizes="196x196" href="apple-touch-icon.png">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <title>little-star.su</title>
+    <title>little-star.su Детские игровые площадки</title>
     <!--    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
     <style type="text/css">
         div, html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
