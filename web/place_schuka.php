@@ -74,18 +74,12 @@
     *Получая услугу по сертификату, Вы соглашаетесь с правилами нашей детской игровой площадки.
 </div>
 <br/>
+<span style="color: firebrick"><b>Мы ждем Вас!</b></span>
+<br/>
+<br/>
 <img style="width: 50%" src="static/new/schuka/9.jpg"/>
 <img src="static/birthday1.png"/>
 
-
-
-
-
-
-
-
-
-<span style="color: firebrick"><b>Мы ждем Вас!</b></span>
 <br/>
 <br/>
 
