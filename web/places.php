@@ -15,6 +15,9 @@ switch(getRequestParam("place", null)) {
     case "serpu":
         require_once "serpu.php";
         break;
+    case "sevastopolskiy":
+        require_once "place_sevastopolskiy.php";
+        break;
     default:
         require_once "all_places.php";
 }

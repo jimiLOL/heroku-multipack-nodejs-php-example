@@ -43,6 +43,17 @@
 </a>
 <br/>
 <br/>
+<a href="?page=places&place=sevastopolskiy">
+    ТЦ «Капитолий» Севастопольский СКОРО ОТКРЫТИЕ
+    <br/>
+    Москва, Севастопольский просп., д. 11е, 3 этаж
+    <br/>
+    <img src="static/sevastopolskiy1.png" style="height: 200px"/>
+<!--    <img src="static/rivera2.png" style="height: 200px"/>-->
+    <img src="static/new/map_sevastopolskiy.png" style="height: 200px"/><!--TODO-->
+</a>
+<br/>
+<br/>
 <a href="?page=places&place=serpu">
     ТРК "Б-Класс"
     <br/>
