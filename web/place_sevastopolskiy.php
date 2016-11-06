@@ -2,24 +2,26 @@
 <!--<table style="width: 90%">-->
 <!--    <tr>-->
 <!--        <td style="width: 30%; vertical-align: middle">-->
-<!--            <img src="static/schuka1.png" style="width: 100%"/>-->
+<!--            <img src="static/sevastopolskiy1.png" style="width: 100%"/>-->
 <!--        </td>-->
 <!--        <td style="width: 70%">-->
 <!--            <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=PpcilEeC3tgD0zgddeFcIem0vMmCIaZa&width=100%&height=400&lang=ru_RU&sourceType=constructor"></script>-->
 <!--        </td>-->
 <!--    </tr>-->
 <!--</table>-->
-<p>Детская развлекательная площадка Little Star расположена на 3 этаже ТЦ Капитолий Севастопольский. В шаговой доступности находится станция МКЦ «Крымская», также до торгового центра ходят бесплатные автобусы от станции метро Нагорная.
-    <br/>
-    Адрес:Москва, Севастопольский просп., д. 11е, 3 этаж
-    <br/>
-    Работаем в режиме торгового центра.</p>
-<p>
-    Адрес: Москва, ул. Щукинская, д. 42 <br/>
-    Работаем в режиме торгового центра.<br/>
-</p>
-<p>Little Star - это сказочный мир, в котором дети чувствуют себя как дома и набираются впечатлений об окружающем мире. Малыши будут в восторге от огромного количества игрушек и развлечений, а ещё от души попрыгать и полазать!</p>
-<p>Также в центре можно отпраздновать День рождения маленькой звездочки, который запомнится надолго вам и вашим гостям!</p>
+<br/>
+Детская развлекательная площадка Little Star расположена на 3 уровне.
+<br/>
+Адрес: Москва, Севастопольский просп., д. 11е.
+<br/>
+Ходят бесплатные автобусы от м. Нагорная до Торгового центра.
+<br/>
+Рядом с Торговым центром находится станция «Крымская» МЦК.
+<br/>
+Мы работаем в режиме торгового центра.
+<br/>
+<br/>
+Детская развлекательная площадка Little Star – это целый мир, в котором оживают волшебные персонажи, приглашая в увлекательное путешествие по своей стране. Хотите настоящих чудес? Приходите к нам!
 
 <br/>
 <br/>
@@ -31,7 +33,7 @@
                 300 рублей за полчаса игры
             </li>
             <li>
-                500 рублей за час игры
+                400 рублей за час игры
             </li>
             <li>
                 Также в продаже имеются абонементы на 5 и на 10 посещений
@@ -39,39 +41,38 @@
         </ul>
     </div>
 </div>
+<span style="color: firebrick"><b>Мы ждем Вас!</b></span>
 
 
-
-
-<!--<div id="photos">-->
-<!--    <a href="photos.php?place=schuka&photo=1.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_1.jpg"/>-->
+<div id="photos">
+    <a href="photos.php?place=sevastopolskiy&photo=1.jpg">
+        <img style="width: 40%" src="static/new/sevastopolskiy/small_1.jpg"/>
+    </a>
+    <a href="photos.php?place=sevastopolskiy&photo=2.jpg">
+        <img style="width: 40%" src="static/new/sevastopolskiy/small_2.jpg"/>
+    </a>
+<!--    <a href="photos.php?place=sevastopolskiy&photo=6.jpg">-->
+<!--        <img style="width: 30%" src="static/new/sevastopolskiy/small_6.jpg"/>-->
 <!--    </a>-->
-<!--    <a href="photos.php?place=schuka&photo=2.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_2.jpg"/>-->
+<!--    <a href="photos.php?place=sevastopolskiy&photo=4.jpg">-->
+<!--        <img style="width: 30%" src="static/new/sevastopolskiy/small_4.jpg"/>-->
 <!--    </a>-->
-<!--    <a href="photos.php?place=schuka&photo=6.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_6.jpg"/>-->
+<!--    <a href="photos.php?place=sevastopolskiy&photo=5.jpg">-->
+<!--        <img style="width: 30%" src="static/new/sevastopolskiy/small_5.jpg"/>-->
 <!--    </a>-->
-<!--    <a href="photos.php?place=schuka&photo=4.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_4.jpg"/>-->
-<!--    </a>-->
-<!--    <a href="photos.php?place=schuka&photo=5.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_5.jpg"/>-->
-<!--    </a>-->
-<!--    <a href="photos.php?place=schuka&photo=3.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_3.jpg"/>-->
+<!--    <a href="photos.php?place=sevastopolskiy&photo=3.jpg">-->
+<!--        <img style="width: 30%" src="static/new/sevastopolskiy/small_3.jpg"/>-->
 <!--    </a>-->
 <!---->
-<!--    <a href="photos.php?place=schuka&photo=7.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_7.jpg"/>-->
+<!--    <a href="photos.php?place=sevastopolskiy&photo=7.jpg">-->
+<!--        <img style="width: 30%" src="static/new/sevastopolskiy/small_7.jpg"/>-->
 <!--    </a>-->
-<!--    <a href="photos.php?place=schuka&photo=8.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_8.jpg"/>-->
+<!--    <a href="photos.php?place=sevastopolskiy&photo=8.jpg">-->
+<!--        <img style="width: 30%" src="static/new/sevastopolskiy/small_8.jpg"/>-->
 <!--    </a>-->
 <!--    <br/>-->
 <!--    <h2>Комната для проведения дня рождения (party room)</h2>-->
-<!--    <a href="photos.php?place=schuka&photo=9.jpg">-->
-<!--        <img style="width: 30%" src="static/new/schuka/small_9.jpg"/>-->
+<!--    <a href="photos.php?place=sevastopolskiy&photo=9.jpg">-->
+<!--        <img style="width: 30%" src="static/new/sevastopolskiy/small_9.jpg"/>-->
 <!--    </a>-->
-<!--</div>-->
+</div>
