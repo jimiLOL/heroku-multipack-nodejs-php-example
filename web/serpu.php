@@ -140,4 +140,10 @@
     <a href="photos.php?place=serpu&photo=12.jpg">
         <img style="width: 30%" src="static/new/serpu/small_12.jpg"/>
     </a>
+    <a href="photos.php?place=serpu&photo=15.jpg">
+        <img style="width: 48%" src="static/new/serpu/small_15.jpg"/>
+    </a>
+    <a href="photos.php?place=serpu&photo=16.jpg">
+        <img style="width: 30%" src="static/new/serpu/small_16.jpg"/>
+    </a>
 </div>
