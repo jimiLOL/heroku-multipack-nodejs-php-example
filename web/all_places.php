@@ -1,3 +1,14 @@
+<a href="?page=places&place=aviapark">
+    Торговый центр Авиапарк
+    <br/>
+    Москва, ул. Авиаконструктора Микояна, д. 10, 3 этаж
+    <br/>
+    <img src="static/aviapark1.png" style="height: 200px"/>
+    <img src="static/aviapark2.png" style="height: 200px"/>
+    <img src="static/new/map_aviapark.png" style="height: 200px;"/>
+</a>
+<br/>
+<br/>
 <a href="?page=places&place=columbus">
     <h1>Наши площадки</h1>
     Торговый центр Columbus
@@ -7,17 +18,6 @@
     <img src="static/columbus1.png" style="height: 200px"/>
     <img src="static/columbus2.png" style="height: 200px"/>
     <img src="static/new/map_columbus.png" style="height: 200px;"/>
-</a>
-<br/>
-<br/>
-<a href="?page=places&place=aviapark">
-    Торговый центр Авиапарк
-    <br/>
-    Москва, ул. Авиаконструктора Микояна, д. 10, 4 этаж
-    <br/>
-    <img src="static/aviapark1.png" style="height: 200px"/>
-    <img src="static/aviapark2.png" style="height: 200px"/>
-    <img src="static/new/map_aviapark.png" style="height: 200px;"/>
 </a>
 <br/>
 <br/>
