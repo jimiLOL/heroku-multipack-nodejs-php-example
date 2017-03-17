@@ -5,23 +5,30 @@
             <img src="static/columbus1.png" style="width: 100%"/>
         </td>
         <td style="width: 70%">
-            <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=QaA8hwLRMVimUf1kYj2bvyHZrHgyX0bi&width=100%&height=400&lang=ru_RU&sourceType=constructor"></script>
+            <script type="text/javascript" charset="utf-8"
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=QaA8hwLRMVimUf1kYj2bvyHZrHgyX0bi&width=100%&height=400&lang=ru_RU&sourceType=constructor"></script>
         </td>
     </tr>
 </table>
 <div style="text-align: justify">
     <p>
-        Детская развлекательная площадка Little Star расположена на 3 уровне ТЦ Columbus в непосредственной близости от станции метро Пражская.
+        Детская развлекательная площадка Little Star расположена на 3 уровне ТЦ Columbus в непосредственной близости от
+        станции метро Пражская.
     </p>
     <p>
-        Адрес: Москва, ул. Кировоградская, д. 13.<br/>
+        Адрес: Москва, ул. Кировоградская, д. 13.
+        <br/>
         Работаем в режиме торгового центра.
+        <br/>
+        Телефон площадки: +7(968)991-10-02
     </p>
     <p>
-        Это идеальное место для малышей и зимой и летом: стремительные спуски с горок в бассейн, наполненный разноцветными шариками, катание на дельфинах перенесут в волшебный мир. Мир, в котором нет ничего невозможного. Мир, где сбываются все детские мечты!
+        Это идеальное место для малышей и зимой и летом: стремительные спуски с горок в бассейн, наполненный
+        разноцветными шариками, катание на дельфинах перенесут в волшебный мир. Мир, в котором нет ничего невозможного.
+        Мир, где сбываются все детские мечты!
     </p>
 
-    <?php require_once "places_text_bottom.php"?>
+    <?php require_once "places_text_bottom.php" ?>
 </div>
 <br/>
 <div id="photos">

@@ -16,6 +16,8 @@
     <br/>
     Работаем в режиме торгового центра.
     <br/>
+    Телефон площадки: +7(968)339-90-01
+    <br/>
     Яркие аттракционы приведут в восторг самых маленьких посетителей! Веселые горки, забавные карусели, водный батут, кораблик, осьминог и многое другое – здесь есть все для веселых и безопасных игр! Также нашим гостям могут понравится 3 батутные арены на разные возраста с поролоновой ямой и небольшим скалодромом.
     <br/>
     Малыши будут в восторге от огромного количества игрушек и развлечений. Чего тут только нет! И железная дорога, и магазин, и мастерская, кухня, машинки, каталки… Все детские мечты станут реальностью. А родители могут посидеть в это время рядом с детьми на удобных диванах.
@@ -51,6 +53,36 @@
     </a>
     <a href="photos.php?place=aviapark&photo=8.jpg">
         <img style="width: 30%" src="static/new/aviapark/small_8.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=9.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_9.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=10.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_10.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=11.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_11.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=12.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_12.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=13.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_13.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=14.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_14.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=15.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_15.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=18.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_18.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=16.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_16.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=17.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_17.jpg"/>
     </a>
 </div>
 <!--iframe width="560" height="315" src="https://www.youtube.com/embed/-SqyZwuey7s" frameborder="0" allowfullscreen></iframe-->
