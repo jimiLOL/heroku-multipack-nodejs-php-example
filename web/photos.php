@@ -13,7 +13,7 @@ function getRequestParam($name, $default) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Columbus</title>
+    <title>Фото</title>
 </head>
 <body style="text-align: center">
 <a href='index.php?page=places&place=<?php echo getRequestParam("place", "");?>#photos'>

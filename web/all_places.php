@@ -1,3 +1,4 @@
+<h1>Наши площадки</h1>
 <a href="?page=places&place=aviapark">
     Торговый центр Авиапарк
     <br/>
@@ -10,7 +11,6 @@
 <br/>
 <br/>
 <a href="?page=places&place=columbus">
-    <h1>Наши площадки</h1>
     Торговый центр Columbus
     <br/>
     Москва, ул. Кировоградская, д. 13, лит. А, 3 уровень
