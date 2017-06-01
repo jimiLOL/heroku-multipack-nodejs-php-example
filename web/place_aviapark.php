@@ -26,8 +26,8 @@
     <br/>
     Мы делаем все возможное, чтобы наши маленькие гости были в восторге от посещения нашей чудесной площадки!
 </div>
-
 <?php require_once "places_text_bottom.php"?>
+<img src="static/birthday_aviapark.jpg" style="height: 90%"/>
 
 <div id="photos">
     <a href="photos.php?place=aviapark&photo=1.jpg">

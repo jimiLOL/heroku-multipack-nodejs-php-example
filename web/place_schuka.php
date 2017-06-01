@@ -19,7 +19,7 @@
 <p>Также в центре можно отпраздновать День рождения маленькой звездочки, который запомнится надолго вам и вашим гостям!</p>
 
 <?php require_once "places_text_bottom.php"?>
-
+<img src="static/birthday_schuka.jpg" style="height: 90%"/>
 <br/>
 <br/>
 
