@@ -44,13 +44,25 @@
 <br/>
 <br/>
 <a href="?page=places&place=sevastopolskiy">
-    ТЦ «Капитолий» Севастопольский
+    ТЦ "Капитолий" Севастопольский
     <br/>
     Москва, Севастопольский просп., д. 11е, 3 этаж
     <br/>
     <img src="static/sevastopolskiy1.png" style="height: 200px"/>
     <img src="static/sevastopolskiy2.png" style="height: 200px"/>
     <img src="static/new/map_sevastopolskiy.png" style="height: 200px"/><!--TODO-->
+</a>
+<br/>
+<br/>
+<a href="?page=places&place=prince">
+    СКОРО ОТКРЫТИЕ
+    <br/>
+    ТРЦ "Принц Плаза"
+    <br/>
+    Москва, ул. Профсоюзная, д. 129А
+    <br/>
+    <img src="static/prince1.png" style="height: 200px"/>
+    <img src="static/new/map_prince.png" style="height: 200px"/><!--TODO-->
 </a>
 <br/>
 <br/>
