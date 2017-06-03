@@ -19,19 +19,18 @@
 <p>Также в центре можно отпраздновать День рождения маленькой звездочки, который запомнится надолго вам и вашим гостям!</p>
 
 <?php require_once "places_text_bottom.php"?>
-<img src="static/birthday_schuka.jpg" style="height: 90%"/>
 <br/>
 <br/>
 
 <div id="photos">
     <a href="photos.php?place=schuka&photo=1.jpg">
-        <img style="width: 30%" src="static/new/schuka/small_1.jpg"/>
+        <img style="width: 31%" src="static/new/schuka/small_1.jpg"/>
     </a>
     <a href="photos.php?place=schuka&photo=2.jpg">
-        <img style="width: 30%" src="static/new/schuka/small_2.jpg"/>
+        <img style="width: 31%" src="static/new/schuka/small_2.jpg"/>
     </a>
     <a href="photos.php?place=schuka&photo=6.jpg">
-        <img style="width: 30%" src="static/new/schuka/small_6.jpg"/>
+        <img style="width: 28%" src="static/new/schuka/small_6.jpg"/>
     </a>
     <a href="photos.php?place=schuka&photo=4.jpg">
         <img style="width: 30%" src="static/new/schuka/small_4.jpg"/>
@@ -44,14 +43,17 @@
     </a>
 
     <a href="photos.php?place=schuka&photo=7.jpg">
-        <img style="width: 30%" src="static/new/schuka/small_7.jpg"/>
+        <img style="width: 22%" src="static/new/schuka/small_7.jpg"/>
     </a>
     <a href="photos.php?place=schuka&photo=8.jpg">
-        <img style="width: 30%" src="static/new/schuka/small_8.jpg"/>
+        <img style="width: 49%" src="static/new/schuka/small_8.jpg"/>
     </a>
     <br/>
     <h2>Комната для проведения дня рождения (party room)</h2>
     <a href="photos.php?place=schuka&photo=9.jpg">
-        <img style="width: 30%" src="static/new/schuka/small_9.jpg"/>
+        <img style="width: 35%" src="static/new/schuka/9.jpg"/>
+    </a>
+    <a href="photos.php?place=schuka&photo=birthday.jpg">
+        <img style="width: 25%" src="static/new/schuka/small_birthday.jpg"/>
     </a>
 </div>

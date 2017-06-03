@@ -1,5 +1,20 @@
 <h1>Новости:</h1>
 <br/>
+<h2>03.06.2017г.</h2>
+<h2>Дорогие друзья!</h2>
+<br/>
+У нас появились новые предложения для проведения дней рождений:
+<br/>
+<a href="photos.php?place=aviapark&photo=birthday3.jpg">
+    <img style="width: 30%" src="static/new/aviapark/small_birthday3.jpg"/>
+</a>
+<a href="photos.php?place=schuka&photo=birthday.jpg">
+    <img style="width: 30%" src="static/new/schuka/small_birthday.jpg"/>
+</a>
+<br/>
+Приглашаем Вас в гости!
+<br/>
+<br/>
 <h2>03.03.2017г.</h2>
 <h2>Дорогие друзья!</h2>
 <br/>

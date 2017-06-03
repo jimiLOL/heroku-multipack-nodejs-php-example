@@ -27,7 +27,6 @@
     Мы делаем все возможное, чтобы наши маленькие гости были в восторге от посещения нашей чудесной площадки!
 </div>
 <?php require_once "places_text_bottom.php"?>
-<img src="static/birthday_aviapark.jpg" style="height: 90%"/>
 
 <div id="photos">
     <a href="photos.php?place=aviapark&photo=1.jpg">
@@ -76,13 +75,13 @@
         <img style="width: 30%" src="static/new/aviapark/small_15.jpg"/>
     </a>
     <a href="photos.php?place=aviapark&photo=18.jpg">
-        <img style="width: 30%" src="static/new/aviapark/small_18.jpg"/>
+        <img style="width: 23.8%" src="static/new/aviapark/small_18.jpg"/>
     </a>
     <a href="photos.php?place=aviapark&photo=16.jpg">
-        <img style="width: 30%" src="static/new/aviapark/small_16.jpg"/>
+        <img style="width: 42.4%" src="static/new/aviapark/small_16.jpg"/>
     </a>
     <a href="photos.php?place=aviapark&photo=17.jpg">
-        <img style="width: 30%" src="static/new/aviapark/small_17.jpg"/>
+        <img style="width: 23.8%" src="static/new/aviapark/small_17.jpg"/>
     </a>
     <br/>
     <br/>
@@ -93,6 +92,9 @@
     </a>
     <a href="photos.php?place=aviapark&photo=birthday2.jpg">
         <img style="width: 46%" src="static/new/aviapark/small_birthday2.jpg"/>
+    </a>
+    <a href="photos.php?place=aviapark&photo=birthday3.jpg">
+        <img style="width: 24.5%" src="static/new/aviapark/small_birthday3.jpg"/>
     </a>
 </div>
 <!--iframe width="560" height="315" src="https://www.youtube.com/embed/-SqyZwuey7s" frameborder="0" allowfullscreen></iframe-->
