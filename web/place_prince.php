@@ -11,7 +11,9 @@
     </tr>
 </table>
 <div style="text-align: justify">
+    <br/>
     Торгово-развлекательный центр «ПРИНЦ ПЛАЗА» расположен у станции метро Теплый стан. Вход в комплекс – непосредственно из вестибюля метрополитена.
+    <br/>
 </div>
 <div id="photos">
     <a href="photos.php?place=prince&photo=1.jpg">
