@@ -31,7 +31,6 @@
     <?php require_once "places_text_bottom.php" ?>
 </div>
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W7vKekGgQ60" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 <div id="photos">
     <a href="photos.php?place=columbus&photo=1.jpg">
         <img style="width: 40%" src="static/new/columbus/small_1.jpg"/>
@@ -58,3 +57,4 @@
         <img style="width: 40%" src="static/new/columbus/small_8.jpg"/>
     </a>
 </div>
+<iframe style="width: 853px; height: 480px" width="853" height="480" src="https://www.youtube.com/embed/W7vKekGgQ60?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
