@@ -33,40 +33,27 @@
 <br/>
 <div id="photos">
     <a href="photos.php?place=columbus&photo=1.jpg">
-        <img style="width: 30%" src="static/new/columbus/small_1.jpg"/>
+        <img style="width: 40%" src="static/new/columbus/small_1.jpg"/>
     </a>
     <a href="photos.php?place=columbus&photo=2.jpg">
-        <img style="width: 30%" src="static/new/columbus/small_2.jpg"/>
+        <img style="width: 40%" src="static/new/columbus/small_2.jpg"/>
     </a>
     <a href="photos.php?place=columbus&photo=3.jpg">
-        <img style="width: 30%" src="static/new/columbus/small_3.jpg"/>
+        <img style="width: 40%" src="static/new/columbus/small_3.jpg"/>
+    </a>
+    <a href="photos.php?place=columbus&photo=4.jpg">
+        <img style="width: 40%" src="static/new/columbus/small_4.jpg"/>
     </a>
     <a href="photos.php?place=columbus&photo=5.jpg">
-        <img style="width: 30%" src="static/new/columbus/small_5.jpg"/>
+        <img style="width: 40%" src="static/new/columbus/small_5.jpg"/>
     </a>
     <a href="photos.php?place=columbus&photo=6.jpg">
-        <img style="width: 30%" src="static/new/columbus/small_6.jpg"/>
+        <img style="width: 40%" src="static/new/columbus/small_6.jpg"/>
     </a>
     <a href="photos.php?place=columbus&photo=7.jpg">
-        <img style="width: 30%" src="static/new/columbus/small_7.jpg"/>
+        <img style="width: 40%" src="static/new/columbus/small_7.jpg"/>
     </a>
-    <table style="width: 66%">
-        <tr>
-            <td style="width: 53%; vertical-align: top;">
-                <a href="photos.php?place=columbus&photo=8.jpg">
-                    <img style="width: 100%" src="static/new/columbus/small_8.jpg"/>
-                </a>
-                <a href="photos.php?place=columbus&photo=9.jpg">
-                    <img style="width: 100%" src="static/new/columbus/small_9.jpg"/>
-                </a>
-
-            </td>
-            <td style="width: 1%"></td>
-            <td style="width: 46%">
-                <a href="photos.php?place=columbus&photo=4.jpg">
-                    <img style="width: 100%" src="static/new/columbus/small_4.jpg"/>
-                </a>
-            </td>
-        </tr>
-    </table>
+    <a href="photos.php?place=columbus&photo=8.jpg">
+        <img style="width: 40%" src="static/new/columbus/small_8.jpg"/>
+    </a>
 </div>
