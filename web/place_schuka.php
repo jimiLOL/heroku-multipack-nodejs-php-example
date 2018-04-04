@@ -53,7 +53,4 @@
     <a href="photos.php?place=schuka&photo=9.jpg">
         <img style="width: 35%" src="static/new/schuka/9.jpg"/>
     </a>
-    <a href="photos.php?place=schuka&photo=birthday.jpg">
-        <img style="width: 25%" src="static/new/schuka/small_birthday.jpg"/>
-    </a>
 </div>
