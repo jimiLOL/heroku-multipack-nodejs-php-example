@@ -4,7 +4,12 @@
 <h2>Мы изменили площадку в ТРЦ "Авиапарк"</h2>
 <br/>
 Мы изменили площадку в ТРЦ "Авиапарк": добавили красочные сети, а также сделали огромный сухой бассейн с интересными препятствиями. Мы надеемся, что наши изменения порадуют наших маленьких гостей!
-<img style="width: 55%" src="static/new/columbus_open.jpg"/>
+<a href="photos.php?place=aviapark&photo=23.jpg">
+    <img style="width: 60%" src="static/new/aviapark/small_23.jpg"/>
+</a>
+<a href="photos.php?place=aviapark&photo=24.jpg">
+    <img style="width: 60%" src="static/new/aviapark/small_24.jpg"/>
+</a>
 <br/>
 Приглашаем Вас в гости!
 <br/>

@@ -29,6 +29,27 @@
 <?php require_once "places_text_bottom.php"?>
 
 <div id="photos">
+    <a href="photos.php?place=aviapark&photo=20.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_20.jpg"/>
+    </a>
+
+    <a href="photos.php?place=aviapark&photo=21.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_21.jpg"/>
+    </a>
+
+    <a href="photos.php?place=aviapark&photo=22.jpg">
+        <img style="width: 30%" src="static/new/aviapark/small_22.jpg"/>
+    </a>
+
+    <a href="photos.php?place=aviapark&photo=23.jpg">
+        <img style="width: 45.5%" src="static/new/aviapark/small_23.jpg"/>
+    </a>
+
+    <a href="photos.php?place=aviapark&photo=24.jpg">
+        <img style="width: 45.5%" src="static/new/aviapark/small_24.jpg"/>
+    </a>
+
+
     <a href="photos.php?place=aviapark&photo=1.jpg">
         <img style="width: 30%" src="static/new/aviapark/small_1.jpg"/>
     </a>
