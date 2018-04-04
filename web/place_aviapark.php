@@ -93,8 +93,5 @@
     <a href="photos.php?place=aviapark&photo=birthday2.jpg">
         <img style="width: 46%" src="static/new/aviapark/small_birthday2.jpg"/>
     </a>
-    <a href="photos.php?place=aviapark&photo=birthday3.jpg">
-        <img style="width: 24.5%" src="static/new/aviapark/small_birthday3.jpg"/>
-    </a>
 </div>
 <!--iframe width="560" height="315" src="https://www.youtube.com/embed/-SqyZwuey7s" frameborder="0" allowfullscreen></iframe-->
