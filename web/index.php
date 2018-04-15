@@ -188,7 +188,7 @@ function getRequestParam($name, $default) {
 //                    fwrite($file, date('H:i:s d.m.Y')."   ". $_SERVER['HTTP_USER_AGENT']. "  IP:".getenv('REMOTE_ADDR')."\n");
 //                    fclose($file);
                 case "main":
-                    require_once "main.php";
+                    require_once "partner_child_plays.php";
                     break;
             }
             ?>
