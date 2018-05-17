@@ -72,3 +72,50 @@
     <img src="static/serpu1.png" style="height: 200px"/>
     <img src="static/serpu2.png" style="height: 200px"/>
 </a>
+<br/>
+<br/>
+<a href="?page=places&place=vegas_kashirskoe">
+    ТРЦ Vegas Каширское шоссе
+    <br/>
+    Москва, 24 км МКАД Каширское шоссе.
+    <br/>
+    <img src="static/new/vegas_kashirskoe/logo.png" style="height: 200px"/>
+</a>
+<br/>
+<br/>
+<a href="?page=places&place=vegas_crocus">
+    ТРЦ Vegas Крокус Сити
+    <br/>
+    66 км МКАД, м. Мякинино.
+    <br/>
+    <img src="static/new/vegas_crocus/logo.png" style="height: 200px"/>
+</a>
+<br/>
+<br/>
+<a href="?page=places&place=vegas_kuncevo">
+    ТРЦ Vegas Кунцево
+    <br/>
+    56 км МКАД (пос. Немчиновка Московская область).
+    <br/>
+    <img src="static/new/vegas_kuncevo/logo.png" style="height: 200px"/>
+</a>
+<br/>
+<br/>
+<a href="?page=places&place=iun_mitishi">
+    ТРЦ Июнь
+    <br/>
+    г. Мытищи, ул. Мира, д. 51.
+    <br/>
+    <img src="static/new/iun_mitishi/logo.png" style="height: 200px"/>
+</a>
+<br/>
+<br/>
+<a href="?page=places&place=reutov_park">
+    ТРЦ Реутов Парк
+    <br/>
+    Адрес: Носовихинское шоссе, д. 45.
+    <br/>
+    <img src="static/new/reutov_park/logo.png" style="height: 200px"/>
+</a>
+<br/>
+<br/>

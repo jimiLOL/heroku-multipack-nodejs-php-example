@@ -21,6 +21,21 @@ switch(getRequestParam("place", null)) {
     case "serpu":
         require_once "place_serpu.php";
         break;
+    case "vegas_kashirskoe":
+        require_once "place_vegas_kashirskoe.php";
+        break;
+    case "vegas_crocus":
+        require_once "place_vegas_crocus.php";
+        break;
+    case "vegas_kuncevo":
+        require_once "place_vegas_kuncevo.php";
+        break;
+    case "iun_mitishi":
+        require_once "place_iun_mitishi.php";
+        break;
+    case "reutov_park":
+        require_once "place_reutov_park.php";
+        break;
     default:
         require_once "all_places.php";
 }
