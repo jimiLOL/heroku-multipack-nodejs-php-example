@@ -26,6 +26,8 @@
             <td>
                 littlestarkids@mail.ru
             </td>
+        </tr>
+        <tr>
             <td>
                 <a href="https://www.xn--80afcepa1dmf3j.xn--p1ai/">Детииграют.рф</a>
             </td>
