@@ -6,7 +6,7 @@
 <br/>
 Всю актуальную информацию Вы можете получить во вкладке "о нас".
 <br/>
-Ждём вас в гости!
+Ждём вас в гости! Все фото площадок вы найдёте во вкладке "площадки"
 <br/>
 <br/>
 <iframe src="https://www.google.com/maps/d/embed?mid=16ZBDiMtdBBvmkj_W8rCbUJc7kjYe7y6C" width="100%" height="605"></iframe>
