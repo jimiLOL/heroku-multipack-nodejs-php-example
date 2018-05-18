@@ -18,7 +18,7 @@ function getRequestParam($name, $default) {
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <title>little-star.su Детские игровые площадки</title>
+    <title>Little Star и Happy City Детские площадки</title>
     <!--    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>-->
     <style type="text/css">
         div, html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
@@ -151,9 +151,9 @@ function getRequestParam($name, $default) {
             </tr>
             <tr>
                 <td style="background-image: url('static/new/top_2_1.png'); background-size: 100.3%; vertical-align: middle; text-align: center">
-                    <div class="phone" style="font-size: xx-large; color: white; line-height: normal">
-                        <b >+7 (977) 822-11-21</b>
-                    </div>
+<!--                    <div class="phone" style="font-size: xx-large; color: white; line-height: normal">-->
+<!--                        <b >+7 (977) 822-11-21</b>-->
+<!--                    </div>-->
 
                 </td>
                 <td><img src="static/new/top_2_2.jpg" style="width: 100%"/></td>
