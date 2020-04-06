@@ -94,43 +94,10 @@
     </style>
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
     <!--    https://vk.com/dev/Community?height=400&link=http%3A%2F%2Fvk.com%2Fpublic20003922&mode=0&oid=-20003922&wide=&width=220-->
-    <script>
-        //        VK.Widgets.Group("vk_groups", {mode: 2, width: "auto", height: "300", wide: 1}, 102947277);
-        //        VK.init({apiId: 5179166, onlyWidgets: true});
-        //        VK.Widgets.Like("vk_like", {type: "button"});
-    </script>
 </head>
 <body>
 <div style="background-image: url('static/new/middle.png'); background-size: contain;">
-    <!--div style="position: fixed; z-index: 10">
-        <div class="button_container">
-            <a class="btn" href="?page=about">
-                <img src="static/new/text/about.png" class="not_selected" style="width: 9.9%">
-                <img src="static/new/text/about_selected.png" class="selected" style="width: 9.9%">
-            </a>
-            <img src="static/new/text/separator.png" style="width: 0.6%"/>
-            <a class="btn" href="?page=places">
-                <img src="static/new/text/places.png" class="not_selected" style="width: 18.3%"/>
-                <img src="static/new/text/places_selected.png" class="selected" style="width: 18.3%"/>
-            </a>
-            <img src="static/new/text/separator.png" style="width: 0.6%"/>
-            <a class="btn" href="?page=birthday">
-                <img src="static/new/text/birthday.png" class="not_selected" style="width: 27.1%"/>
-                <img src="static/new/text/birthday_selected.png" class="selected" style="width: 27.1%"/>
-            </a>
-            <img src="static/new/text/separator.png" style="width: 0.6%"/>
-            <a class="btn" href="?page=partner">
-                <img src="static/new/text/partner.png" class="not_selected" style="width: 19.7%"/>
-                <img src="static/new/text/partner_selected.png" class="selected" style="width: 19.7%"/>
-            </a>
-            <img src="static/new/text/separator.png" style="width: 0.6%"/>
-            <a class="btn" href="?page=contacts">
-                <img src="static/new/text/contact.png" class="not_selected" style="width: 16.1%"/>
-                <img src="static/new/text/contact_selected.png" class="selected" style="width: 16.1%"/>
-            </a>
-        </div>
-    </div -->
-    <div align="center" style="width: 100%;">
+    <!--div align="center" style="width: 100%;">
         <table style="width: 100%; line-height: 0" class="top">
             <tr>
                 <td style="background-image: url('static/new/top_1_1.png'); background-size: 100.3%; vertical-align: middle; text-align: center">
@@ -140,15 +107,11 @@
             </tr>
             <tr>
                 <td style="background-image: url('static/new/top_2_1.png'); background-size: 100.3%; vertical-align: middle; text-align: center">
-<!--                    <div class="phone" style="font-size: xx-large; color: white; line-height: normal">-->
-<!--                        <b >+7 (977) 822-11-21</b>-->
-<!--                    </div>-->
-
                 </td>
                 <td><img src="static/new/top_2_2.jpg" style="width: 100%"/></td>
             </tr>
         </table>
-    </div>
+    </div-->
     <div align="center" class="content_back">
         <div style="width: 100%; height: 100%; min-height: 500px">
             <iframe src="https://xn--80afcepa1dmf3j.xn--p1ai/" style="width: 100%; height: 10000px; border: 0"></iframe>
@@ -159,15 +122,6 @@
 <div>
     <img style="width: 100%" src="static/new/background_bottom.jpg"/>
 </div>
-
-<!--<div style="position: absolute; top: 0; left: 0;">-->
-<!--    <table>-->
-<!--        <tr>-->
-<!--            <td><img src="static/call_us.png" style="width: 60px; height: 60px"/></td>-->
-<!--            <td style="vertical-align: middle; font-size: 16pt">  +7 (977) 822-11-21</td>-->
-<!--        </tr>-->
-<!--    </table>-->
-<!--</div>-->
-
+    
 </body>
 </html>
