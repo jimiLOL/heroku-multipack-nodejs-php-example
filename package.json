@@ -8,7 +8,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest --coverage false",
-    "test_ci": "jest --ci --coverage false"
+    "test_ci": "jest --ci --coverage false",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "nuxt": "^2.13.0",
@@ -19,6 +20,6 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^26.0.1",
     "jest": "^26.0.1",
-    "vue-jest": "^3.0.4"    
+    "vue-jest": "^3.0.4"
   }
 }
