@@ -1,14 +1,24 @@
 {
-  "name": "multitest",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "my-heroku-nuxt-app",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest --coverage false",
+    "test_ci": "jest --ci --coverage false"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "nuxt": "^2.13.0",
     "bower": "~1.3.3"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "vue-jest": "^3.0.4"    
   }
 }
